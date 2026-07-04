@@ -177,16 +177,15 @@ img {
 }
 
 .member-links {
-  margin-top: 6px;
-  padding-left: 24px;
+  margin-left: 16px;
 }
 
 .member-links a {
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 0.03em;
-  padding: 4px 12px;
-  margin-right: 8px;
+  padding: 2px 8px;
+  margin-right: 6px;
   border: 1px solid #cccccc;
   color: #666666;
 }
