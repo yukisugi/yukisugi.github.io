@@ -157,6 +157,12 @@ img {
    Publications
    ========================================================================== */
 
+.pub-links {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 24px;
+}
+
 .pub-list li {
   padding: 10px 0;
   border-bottom: 1px dotted #dddddd;

@@ -5,13 +5,18 @@ title: Publications
 
 <h1 class="page-title">Publications</h1>
 
+<p class="pub-links">
+  <a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">ORCID {{ site.orcid }}</a>
+</p>
+
 <ul class="pub-list">
   {% for pub in site.data.publications %}
   <li>
-    {{ pub.year }}.
     {{ pub.authors | join: ", " }}.
-    {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}.
-    {% if pub.journal != "" %}<em>{{ pub.journal }}</em>{% if pub.volume != "" %} {{ pub.volume }}{% endif %}{% if pub.number != "" %}({{ pub.number }}){% endif %}{% if pub.pages != "" %}: {{ pub.pages }}{% endif %}.{% endif %}
+    {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank" rel="noopener">&ldquo;{{ pub.title }}&rdquo;</a>{% else %}&ldquo;{{ pub.title }}&rdquo;{% endif %}
+    {% if pub.journal != "" %}<em>{{ pub.journal }}</em>{% endif %}
+    {% if pub.volume != "" %}<b>{{ pub.volume }}</b>{% endif %}{% if pub.number != "" %}({{ pub.number }}){% endif %}{% if pub.pages != "" %}, {{ pub.pages }}{% endif %}
+    ({{ pub.year }}).
   </li>
   {% endfor %}
 </ul>
