@@ -15,23 +15,6 @@
   pages: ''
   doi: 10.7554/elife.110255.1
   url: https://doi.org/10.7554/elife.110255.1
-- title: Structural Basis for the Folding of PINK1 by the HSP90–CDC37 Chaperone Complex
-  authors:
-  - Kei Okatsu
-  - Hayato Yamamoto
-  - Akinori Okamoto
-  - Shinya H Goto
-  - Yumiko Nishimoto
-  - Yukihiko Sugita
-  - Takeshi Noda
-  - Shuya Fukai
-  year: '2026'
-  journal: ''
-  volume: ''
-  number: ''
-  pages: ''
-  doi: 10.7554/elife.110255
-  url: https://doi.org/10.7554/elife.110255
 - title: Structure and Assembly of Borna Disease Virus 1 Nucleoprotein-RNA Complexes
   authors:
   - Yukihiko Sugita
@@ -45,9 +28,9 @@
   journal: Science Advances
   volume: '12'
   number: '15'
-  pages: ''
+  pages: eaeb0835
   doi: 10.1126/sciadv.aeb0835
-  url: https://doi.org/10.1126/sciadv.aeb0835
+  url: https://www.science.org/doi/10.1126/sciadv.aeb0835
 - title: Multimerization of Secretory IgA Enhances Antiviral Activity by Aggregating
     Influenza A Virus Particles
   authors:
@@ -87,9 +70,9 @@
   journal: Nature Communications
   volume: '16'
   number: '1'
-  pages: ''
+  pages: '2171'
   doi: 10.1038/s41467-025-57236-4
-  url: https://doi.org/10.1038/s41467-025-57236-4
+  url: https://www.nature.com/articles/s41467-025-57236-4
 - title: AI-Guided Stability Tuning of a Heterodimeric Linker for Programmable Protein
     Tube Architectures
   authors:
@@ -203,25 +186,6 @@
   pages: ''
   doi: 10.1073/pnas.2507421122
   url: https://doi.org/10.1073/pnas.2507421122
-- title: Structural Basis of Ebola Virus Nucleocapsid Assembly and Functions
-  authors:
-  - Yoko Fujita-Fujiharu
-  - Shangfan Hu
-  - Ai Hirabayashi
-  - Yuki Takamatsu
-  - Yen Ni Ng
-  - Kazuya Houri
-  - Yukiko Muramoto
-  - Masahiro Nakano
-  - Yukihiko Sugita
-  - Takeshi Noda
-  year: '2024'
-  journal: bioRxiv/medRxiv
-  volume: ''
-  number: ''
-  pages: ''
-  doi: 10.1101/2024.02.19.580633
-  url: https://doi.org/10.1101/2024.02.19.580633
 - title: Neurotransmitter Recognition by Human Vesicular Monoamine Transporter 2
   authors:
   - Dohyun Im
@@ -386,7 +350,7 @@
   - Takeshi Noda
   - Hideaki Tsuge
   year: '2024'
-  journal: bioRxiv/medRxiv
+  journal: bioRxiv
   volume: ''
   number: ''
   pages: ''
@@ -407,9 +371,9 @@
   journal: PNAS Nexus
   volume: '2'
   number: '4'
-  pages: ''
+  pages: pgad120
   doi: 10.1093/pnasnexus/pgad120
-  url: https://doi.org/10.1093/pnasnexus/pgad120
+  url: https://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgad120/7109902
 - title: Structural Insights into the Agonists Binding and Receptor Selectivity of
     Human Histamine H4 Receptor
   authors:
@@ -523,7 +487,7 @@
   - Matthias Wolf
   - Hitoshi Kurumizaka
   year: '2018'
-  journal: Nat Med
+  journal: Molecular Cell
   volume: '69'
   number: '3'
   pages: 385-397.e8
@@ -545,7 +509,7 @@
   number: '9'
   pages: 1372–1382
   doi: 10.1093/infdis/jiy035
-  url: https://doi.org/10.1093/infdis/jiy035
+  url: https://academic.oup.com/jid/article/217/9/1372/4823229
 - title: Cryo-EM Structure of the Ebola Virus Nucleoprotein–RNA Complex at 3.6 Å Resolution
   authors:
   - Yukihiko Sugita
@@ -563,50 +527,50 @@
 - title: Genetic and Antigenic Characterization of Bovine Viral Diarrhea Viruses Isolated
     from Cattle in Hokkaido, Japan
   authors:
-  - Yuri ABE
-  - Tomokazu TAMURA
-  - Shiho TORII
-  - Shiho WAKAMORI
-  - Makoto NAGAI
-  - Kazuya MITSUHASHI
-  - Junki MINE
-  - Yuri FUJIMOTO
-  - Naofumi NAGASHIMA
-  - Fumi YOSHINO
-  - Yukihiko SUGITA
-  - Takushi NOMURA
-  - Masatoshi OKAMATSU
-  - Hiroshi KIDA
-  - Yoshihiro SAKODA
+  - Yuri Abe
+  - Tomokazu Tamura
+  - Shiho Torii
+  - Shiho Wakamori
+  - Makoto Nagai
+  - Kazuya Mitsuhashi
+  - Junki Mine
+  - Yuri Fujimoto
+  - Naofumi Nagashima
+  - Fumi Yoshino
+  - Yuki Sugita
+  - Takushi Nomura
+  - Masatoshi Okamatsu
+  - Hiroshi Kida
+  - Yoshihiro Sakoda
   year: '2016'
   journal: Journal of Veterinary Medical Science
   volume: '78'
   number: '1'
   pages: 61–70
   doi: 10.1292/jvms.15-0186
-  url: https://doi.org/10.1292/jvms.15-0186
+  url: https://www.jstage.jst.go.jp/article/jvms/78/1/78_15-0186/_article
 - title: Actin-Modulating Protein Cofilin Is Involved in the Formation of Measles
     Virus Ribonucleoprotein Complex at the Perinuclear Region
   authors:
   - Ritsuko Koga
-  - Yukihiko Sugita
+  - Yuki Sugita
   - Takeshi Noda
   - Yusuke Yanagi
   - Shinji Ohno
   year: '2015'
-  journal: Journal of Virology
+  journal: Journal of virology
   volume: '89'
   number: '20'
   pages: 10524–10531
-  doi: 10.1128/jvi.01819-15
-  url: https://doi.org/10.1128/jvi.01819-15
+  doi: 10.1128/JVI.01819-15
+  url: http://jvi.asm.org/lookup/doi/10.1128/JVI.01819-15
 - title: Influenza Virus-Host Interactome Screen as a Platform for Antiviral Drug
     Development
   authors:
   - Tokiko Watanabe
   - Eiryo Kawakami
-  - Jason E. Shoemaker
-  - Tiago J.S. Lopes
+  - Jason E Shoemaker
+  - Tiago J S Lopes
   - Yukiko Matsuoka
   - Yuriko Tomita
   - Hiroko Kozuka-Hata
@@ -622,7 +586,7 @@
   - Naoki Nonaka
   - Hiroko Fujii
   - Ken Fujii
-  - Yukihiko Sugita
+  - Yuki Sugita
   - Takeshi Noda
   - Hideo Goto
   - Satoshi Fukuyama
@@ -637,7 +601,7 @@
   number: '6'
   pages: 795–805
   doi: 10.1016/j.chom.2014.11.002
-  url: https://doi.org/10.1016/j.chom.2014.11.002
+  url: http://linkinghub.elsevier.com/retrieve/pii/S1931312814003989
 - title: Configuration of Viral Ribonucleoprotein Complexes within the Influenza A
     Virion
   authors:
@@ -672,7 +636,7 @@
   - Dongming Zhao
   - Noriko Kishida
   - Masayuki Shirakura
-  - given=Robert P., prefix=de, useprefix=true family=Vries
+  - given=Robert P, prefix=de, useprefix=true family=Vries
   - Shintaro Shichinohe
   - Masatoshi Okamatsu
   - Tomokazu Tamura
@@ -685,14 +649,14 @@
   - Shinji Watanabe
   - Mutsumi Ito
   - Yuko Sakai-Tagawa
-  - Yukihiko Sugita
+  - Yuki Sugita
   - Ryuta Uraki
   - Reina Yamaji
-  - Amie J. Eisfeld
+  - Amie J Eisfeld
   - Gongxun Zhong
   - Shufang Fan
   - Jihui Ping
-  - Eileen A. Maher
+  - Eileen A Maher
   - Anthony Hanson
   - Yuko Uchida
   - Takehiko Saito
@@ -700,7 +664,7 @@
   - Gabriele Neumann
   - Hiroshi Kida
   - Takato Odagiri
-  - James C. Paulson
+  - James C Paulson
   - Hideki Hasegawa
   - Masato Tashiro
   - Yoshihiro Kawaoka
@@ -710,7 +674,7 @@
   number: '7468'
   pages: 551–555
   doi: 10.1038/nature12392
-  url: https://doi.org/10.1038/nature12392
+  url: http://www.nature.com/doifinder/10.1038/nature12392
 - title: Three-Dimensional Analysis of Ribonucleoprotein Complexes in Influenza A
     Virus
   authors:
@@ -723,12 +687,12 @@
   - Hiroshi Sagara
   - Yoshihiro Kawaoka
   year: '2012'
-  journal: Nature Communications
+  journal: Nature communications
   volume: '3'
-  number: '1'
-  pages: ''
+  number: ''
+  pages: '639'
   doi: 10.1038/ncomms1647
-  url: https://doi.org/10.1038/ncomms1647
+  url: http://www.nature.com/doifinder/10.1038/ncomms1647
 - title: Ultracentrifugation Deforms Unfixed Influenza A Virions
   authors:
   - Yukihiko Sugita
