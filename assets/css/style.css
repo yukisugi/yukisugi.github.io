@@ -145,21 +145,21 @@ img {
 }
 
 /* ==========================================================================
-   Members
+   Section groups (used by Members and Info pages)
    ========================================================================== */
 
-.member-group {
+.section-group {
   margin-bottom: 32px;
 }
 
-.member-group h2 {
+.section-group h2 {
   font-size: 15px;
   font-weight: normal;
   color: #999999;
   margin-bottom: 12px;
 }
 
-.member-list li {
+.section-group li {
   padding: 6px 0;
   font-size: 15px;
 }
@@ -168,26 +168,6 @@ img {
   color: #999999;
   font-size: 13px;
   margin-left: 8px;
-}
-
-/* ==========================================================================
-   Info
-   ========================================================================== */
-
-.info-group {
-  margin-bottom: 32px;
-}
-
-.info-group h2 {
-  font-size: 15px;
-  font-weight: normal;
-  color: #999999;
-  margin-bottom: 12px;
-}
-
-.info-list li {
-  padding: 6px 0;
-  font-size: 15px;
 }
 
 /* ==========================================================================

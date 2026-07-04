@@ -5,9 +5,9 @@ title: Members
 
 <h1 class="page-title">Members</h1>
 
-<div class="member-group">
+<div class="section-group">
   <h2>Faculty</h2>
-  <ul class="member-list">
+  <ul>
     {% for m in site.data.members.faculty %}
     <li>{{ m.name }}<span class="member-role">{{ m.role }}</span></li>
     {% endfor %}

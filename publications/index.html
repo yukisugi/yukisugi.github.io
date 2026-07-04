@@ -12,12 +12,6 @@ title: Publications
 
 <ul class="pub-list">
   {% for pub in site.data.publications %}
-  <li>
-    {{ pub.authors | join: ", " }}.
-    {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank" rel="noopener"><b>&ldquo;{{ pub.title }}&rdquo;</b></a>{% else %}<b>&ldquo;{{ pub.title }}&rdquo;</b>{% endif %}
-    {% if pub.journal != "" %}<em>{{ pub.journal }}</em>{% endif %}
-    {% if pub.volume != "" %}{{ pub.volume }}{% endif %}{% if pub.number != "" %}({{ pub.number }}){% endif %}{% if pub.pages != "" %}, {{ pub.pages }}{% endif %}
-    ({{ pub.year }}).
-  </li>
+    {% include publication_entry.html pub=pub %}
   {% endfor %}
 </ul>
