@@ -173,11 +173,26 @@ img {
 .member-name-en {
   color: #999999;
   font-size: 13px;
+  margin-left: 8px;
 }
 
-.section-group li a {
-  font-size: 13px;
-  margin-left: 12px;
+.member-links {
+  margin-top: 6px;
+}
+
+.member-links a {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  padding: 4px 12px;
+  margin-right: 8px;
+  border: 1px solid #cccccc;
+  color: #666666;
+}
+
+.member-links a:hover {
+  border-color: #333333;
+  color: #333333;
 }
 
 /* ==========================================================================
