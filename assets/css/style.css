@@ -162,9 +162,21 @@ img {
    ========================================================================== */
 
 .pub-links {
+  margin-bottom: 32px;
+}
+
+.pub-links a {
+  display: inline-block;
   font-size: 13px;
-  color: #999999;
-  margin-bottom: 24px;
+  letter-spacing: 0.05em;
+  padding: 8px 18px;
+  margin-right: 12px;
+  border: 1px solid #333333;
+}
+
+.pub-links a:hover {
+  background-color: #333333;
+  color: #ffffff;
 }
 
 .pub-list li {
