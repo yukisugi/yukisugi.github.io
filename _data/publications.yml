@@ -1,3 +1,32 @@
+- title: Structural Insights into Spectral Tuning and Retinal Exchange in Cone Visual
+    Pigments
+  authors:
+  - Sayaka Ohashi
+  - Kota Katayama
+  - Asato Kojima
+  - Xuchun Yang
+  - Masahiro Fukuda
+  - Filippo Sacchetta
+  - Ryoji Suno
+  - Yukihiko Sugita
+  - Nipawan Nuemket
+  - Suhyang Kim
+  - Kazuhiro Kobayashi
+  - Hiroo Imai
+  - So Iwata
+  - Eriko Nango
+  - Takuya Kobayashi
+  - Takeshi Noda
+  - Massimo Olivucci
+  - Hideaki E. Kato
+  - Hideki Kandori
+  year: '2026'
+  journal: Science
+  volume: '392'
+  number: '6805'
+  pages: eadz3996
+  doi: 10.1126/science.adz3996
+  url: https://www.science.org/doi/10.1126/science.adz3996
 - title: Structural Basis for the Folding of PINK1 by the HSP90–CDC37 Chaperone Complex
   authors:
   - Kei Okatsu
@@ -81,7 +110,7 @@
   - Yukihiko Sugita
   - Yuta Suzuki
   year: '2025'
-  journal: bioRxiv/medRxiv
+  journal: bioRxiv
   volume: ''
   number: ''
   pages: ''
