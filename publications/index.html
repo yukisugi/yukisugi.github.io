@@ -6,5 +6,12 @@ title: Publications
 <h1 class="page-title">Publications</h1>
 
 <ul class="pub-list">
-  <li>準備中です。</li>
+  {% for pub in site.data.publications %}
+  <li>
+    {{ pub.year }}.
+    {{ pub.authors | join: ", " }}.
+    {% if pub.url != "" %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}.
+    {% if pub.journal != "" %}<em>{{ pub.journal }}</em>{% if pub.volume != "" %} {{ pub.volume }}{% endif %}{% if pub.number != "" %}({{ pub.number }}){% endif %}{% if pub.pages != "" %}: {{ pub.pages }}{% endif %}.{% endif %}
+  </li>
+  {% endfor %}
 </ul>
