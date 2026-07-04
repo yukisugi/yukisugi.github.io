@@ -1,5 +1,12 @@
 faculty:
   - name: 野田岳志
+    name_en: "Takeshi NODA, DVM, PhD"
     role: 教授（兼任）
+    researchmap: https://researchmap.jp/nodatakeshi
+    orcid: "0000-0002-0658-4663"
   - name: 杉田征彦
+    name_en: "Yukihiko SUGITA, DVM, PhD"
     role: 准教授
+    researchmap: https://researchmap.jp/y-sugita
+    orcid: "0000-0001-6861-4840"
+    google_scholar_id: "e7XLIPAAAAAJ"

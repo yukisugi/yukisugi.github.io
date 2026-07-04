@@ -170,27 +170,19 @@ img {
   margin-left: 8px;
 }
 
+.member-name-en {
+  color: #999999;
+  font-size: 13px;
+}
+
+.section-group li a {
+  font-size: 13px;
+  margin-left: 12px;
+}
+
 /* ==========================================================================
    Publications
    ========================================================================== */
-
-.pub-links {
-  margin-bottom: 32px;
-}
-
-.pub-links a {
-  display: inline-block;
-  font-size: 13px;
-  letter-spacing: 0.05em;
-  padding: 8px 18px;
-  margin-right: 12px;
-  border: 1px solid #333333;
-}
-
-.pub-links a:hover {
-  background-color: #333333;
-  color: #ffffff;
-}
 
 .pub-list li {
   padding: 10px 0;

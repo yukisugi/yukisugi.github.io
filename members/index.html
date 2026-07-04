@@ -9,7 +9,7 @@ title: Members
   <h2>Faculty</h2>
   <ul>
     {% for m in site.data.members.faculty %}
-    <li>{{ m.name }}<span class="member-role">{{ m.role }}</span></li>
+      {% include member_entry.html member=m %}
     {% endfor %}
   </ul>
 </div>

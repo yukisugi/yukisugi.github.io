@@ -1,0 +1,8 @@
+{% assign m = include.member %}
+<li>
+  {{ m.name }}<span class="member-role">{{ m.role }}</span>
+  {% if m.name_en %}<div class="member-name-en">{{ m.name_en }}</div>{% endif %}
+  {% if m.researchmap %}<a href="{{ m.researchmap }}" target="_blank" rel="noopener">Researchmap</a>{% endif %}
+  {% if m.orcid %}<a href="https://orcid.org/{{ m.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
+  {% if m.google_scholar_id %}<a href="https://scholar.google.com/citations?user={{ m.google_scholar_id }}&hl=ja" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+</li>
