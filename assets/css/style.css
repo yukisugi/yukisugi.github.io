@@ -61,8 +61,21 @@ img {
 }
 
 #header_logo a {
-  font-size: 20px;
+  display: block;
+  line-height: 1.4;
+}
+
+#header_logo .header_logo_ja {
+  display: block;
+  font-size: 28px;
   letter-spacing: 0.05em;
+}
+
+#header_logo .header_logo_en {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #999999;
 }
 
 #menu_head ul {
