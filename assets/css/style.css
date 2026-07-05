@@ -135,6 +135,14 @@ img {
   color: #555555;
 }
 
+.institute-link {
+  color: #00205b;
+}
+
+.institute-link:hover {
+  color: #3d4f8a;
+}
+
 .page-title {
   font-size: 22px;
   font-weight: normal;
