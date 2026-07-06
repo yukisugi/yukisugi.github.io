@@ -4,5 +4,4 @@ _site
 .jekyll-metadata
 .bundle
 vendor
-README.md
 .DS_Store

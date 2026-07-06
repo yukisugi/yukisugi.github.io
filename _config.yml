@@ -24,4 +24,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - drafts/
   - vendor/
