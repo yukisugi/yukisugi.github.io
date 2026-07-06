@@ -152,6 +152,11 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
+.page-title .title-credentials {
+  font-size: 0.72em;
+  color: #777777;
+}
+
 /* ==========================================================================
    Section groups (used by Members and Info pages)
    ========================================================================== */
@@ -170,6 +175,25 @@ img {
 .section-group li {
   padding: 6px 0;
   font-size: 15px;
+}
+
+.cv-table {
+  border-collapse: collapse;
+}
+
+.cv-table td {
+  padding: 2px 0;
+  vertical-align: top;
+}
+
+.cv-table td:first-child {
+  padding-right: 24px;
+  white-space: nowrap;
+}
+
+.cv-table td:nth-child(2) {
+  padding-right: 16px;
+  white-space: nowrap;
 }
 
 .member-list li {
