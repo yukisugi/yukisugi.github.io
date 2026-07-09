@@ -1,0 +1,33 @@
+---
+layout: default
+title: Research
+---
+
+<h1 class="page-title">Research</h1>
+
+<div class="prose">
+  <p>
+    電子顕微鏡・クライオ電子顕微鏡（cryo-EM）を用いて、生体高分子の構造と機能を明らかにする研究を行っています。
+    なかでもインフルエンザウイルス、エボラウイルス、ボルナ病ウイルスをはじめとする病原性ウイルスを中心的な研究対象とし、
+    ウイルス粒子やその構成因子が持つ精緻な構造と、感染・増殖・病原性発現といった機能との関係を解き明かすことを目指しています。
+  </p>
+</div>
+
+{% assign categories = site.data.research_categories | sort: "order" %}
+{% for cat in categories %}
+  {% assign topics = site.research | where: "category", cat.id | sort: "order" %}
+  {% if topics.size > 0 %}
+  <div class="section-group">
+    <h2>{{ cat.title }}</h2>
+    <div class="topic-grid">
+      {% for topic in topics %}
+      <a class="topic-card" href="{{ topic.url | relative_url }}">
+        {% if topic.thumbnail %}<img src="{{ topic.thumbnail | relative_url }}" alt="{{ topic.title }}">{% endif %}
+        <span class="topic-card-title">{{ topic.title }}</span>
+        {% if topic.summary %}<span class="topic-card-summary">{{ topic.summary }}</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}

@@ -1,17 +1,28 @@
 ---
 layout: default
-title: Home
+title: null
 ---
 
-<section class="hero">
-  <h1>{{ site.title }}</h1>
-  <div class="hero-en">{{ site.title_en }}</div>
-  <div class="hero-affiliation">
-    {% include affiliation.html %}<br>
-    {{ site.affiliation_en }}
-  </div>
-</section>
+<div class="topic-grid home-topic-grid">
+  {% assign categories = site.data.research_categories | sort: "order" %}
+  {% for cat in categories %}
+    {% assign topics = site.research | where: "category", cat.id | sort: "order" %}
+    {% for topic in topics %}
+    <a class="topic-card" href="{{ topic.url | relative_url }}">
+      {% if topic.thumbnail %}<img src="{{ topic.thumbnail | relative_url }}" alt="{{ topic.title }}">{% endif %}
+    </a>
+    {% endfor %}
+  {% endfor %}
+</div>
 
-<section>
-  <p>{{ site.description }}</p>
-</section>
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+{% if news_items.size > 0 %}
+<div class="home-news">
+  <h2>News</h2>
+  <ul>
+    {% for item in news_items %}
+    <li><span class="home-news-date">{{ item.date | date: "%Y.%m.%d" }}</span>{{ item.text }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

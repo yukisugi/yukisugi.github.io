@@ -1,8 +1,18 @@
 # Site settings
 # Accessible in templates via {{ site.xxx }}
 
-title: 超分子構造学分野
-title_en: "Laboratory of Supramolecular Structural Biology"
+# Personal site owner
+title: 杉田 征彦
+title_en: "Yukihiko Sugita"
+name_credentials: "DVM, PhD"
+role: 准教授
+description: >-
+  京都大学医生物学研究所 超分子構造学分野 准教授、杉田征彦の個人ウェブサイト。
+  クライオ電子顕微鏡によるウイルス・生体高分子の構造生物学。
+
+# Lab / affiliation (used on the Lab page)
+lab_title: 超分子構造学分野
+lab_title_en: "Laboratory of Supramolecular Structural Biology"
 institute: 京都大学医生物学研究所
 institute_url: "https://www.infront.kyoto-u.ac.jp/"
 affiliation: 京都大学医生物学研究所 附属感染症モデル研究センター
@@ -10,8 +20,7 @@ affiliation_en: "Laboratory of Supramolecular Structural Biology, Research Cente
 email: sugita.yukihiko.8w@kyoto-u.ac.jp
 tel: "075-751-4048"
 address: "〒606-8507 京都市左京区聖護院川原町53"
-description: >-
-  超分子構造学分野の研究室ウェブサイトです。（説明文は準備中）
+
 baseurl: ""
 url: "https://yukisugi.github.io"
 
@@ -19,6 +28,18 @@ url: "https://yukisugi.github.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research-topic
 
 exclude:
   - Gemfile

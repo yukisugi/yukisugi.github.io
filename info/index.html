@@ -6,6 +6,21 @@ title: Info
 <h1 class="page-title">Info</h1>
 
 <div class="section-group">
+  <h2>Lab</h2>
+  <p class="lab-name">{{ site.lab_title }}</p>
+  <p class="lab-title-en">{{ site.lab_title_en }}</p>
+  <p>
+    {% include affiliation.html %}の研究分野です。
+    クライオ電子顕微鏡による構造生物学を軸として、ウイルスをはじめとする生体高分子の構造と機能を研究しています。
+  </p>
+  <p>
+    <a href="https://www.infront.kyoto-u.ac.jp/laboratory/labo04/" target="_blank" rel="noopener">微細構造ウイルス学分野</a>（野田岳志教授）と共同で研究・教育にあたっています。<br>
+    大学院生は、<a href="https://www.lif.kyoto-u.ac.jp/j/" target="_blank" rel="noopener">京都大学大学院生命科学研究科</a> 統合生命科学専攻で受け入れています。
+    研究室の見学についても、大学院生・学部生からの気軽な問い合わせを歓迎します。
+  </p>
+</div>
+
+<div class="section-group">
   <h2>Contact</h2>
   <ul>
     <li>mail: {{ site.email | replace: "@", "[at]" }}</li>
@@ -17,11 +32,10 @@ title: Info
   <h2>Access</h2>
   <p>
     {% include affiliation.html %}<br>
-    {{ site.address }}<br>
+    {{ site.address }}
   </p>
-  
   <p>
-    神宮丸太町駅（京阪電鉄 京阪本線・鴨東線）から徒歩5分<br>
-    丸太町駅（京都市営地下鉄烏丸線）から徒歩20分
+    神宮丸太町駅（京阪電鉄 京阪本線・鴨東線）より徒歩5分<br>
+    丸太町駅（京都市営地下鉄烏丸線）より徒歩20分
   </p>
 </div>

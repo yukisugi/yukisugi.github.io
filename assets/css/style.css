@@ -2,6 +2,12 @@
    Base
    ========================================================================== */
 
+:root {
+  /* Kyoto University school color (dark blue) */
+  --ku-blue: #00205b;
+  --ku-blue-hover: #3d4f8a;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,12 +26,13 @@ body {
 }
 
 a {
-  color: #222222;
+  color: var(--ku-blue);
   text-decoration: none;
 }
 
 a:hover {
-  color: #999999;
+  color: var(--ku-blue-hover);
+  text-decoration: underline;
 }
 
 ul {
@@ -63,6 +70,11 @@ img {
 #header_logo a {
   display: block;
   line-height: 1.4;
+  color: #222222;
+}
+
+#header_logo a:hover {
+  text-decoration: none;
 }
 
 #header_logo .header_logo_ja {
@@ -91,6 +103,12 @@ img {
 #menu_head li a {
   padding: 14px 20px;
   display: inline-block;
+  color: #222222;
+}
+
+#menu_head li a:hover {
+  color: #999999;
+  text-decoration: none;
 }
 
 #menu_head .menu_divider {
@@ -135,14 +153,6 @@ img {
   color: #555555;
 }
 
-.institute-link {
-  color: #00205b;
-}
-
-.institute-link:hover {
-  color: #3d4f8a;
-}
-
 .page-title {
   font-size: 22px;
   font-weight: normal;
@@ -152,9 +162,9 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-.page-title .title-credentials {
-  font-size: 0.72em;
-  color: #777777;
+.title-credentials {
+  font-size: 0.8em;
+  color: #999999;
 }
 
 /* ==========================================================================
@@ -230,8 +240,9 @@ img {
 }
 
 .member-links a:hover {
-  border-color: #333333;
-  color: #333333;
+  border-color: var(--ku-blue);
+  color: var(--ku-blue);
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -244,12 +255,129 @@ img {
   font-size: 15px;
 }
 
-.pub-list a {
-  color: #00205b;
+/* ==========================================================================
+   Home
+   ========================================================================== */
+
+.home-more {
+  margin-top: 28px;
+  font-size: 14px;
 }
 
-.pub-list a:hover {
-  color: #3d4f8a;
+.home-more a {
+  color: var(--ku-blue);
+}
+
+.home-news {
+  margin-top: 64px;
+}
+
+.home-news h2 {
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.home-news ul {
+  font-size: 13px;
+  color: #666666;
+}
+
+.home-news li {
+  padding: 4px 0;
+}
+
+.home-news-date {
+  color: #aaaaaa;
+  margin-right: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   Research topics (grid + cards)
+   ========================================================================== */
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.topic-card {
+  display: block;
+}
+
+.topic-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: #f2f2f0;
+}
+
+.topic-card-title {
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
+
+.topic-card-summary {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #999999;
+}
+
+.topic-card:hover img {
+  opacity: 0.85;
+}
+
+.topic-hero {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: #f2f2f0;
+  margin-bottom: 28px;
+}
+
+.back-link {
+  font-size: 13px;
+  margin: 0 0 24px;
+}
+
+.aside-link {
+  margin: 14px 0 0;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+/* ==========================================================================
+   Prose (Research)
+   ========================================================================== */
+
+.prose p {
+  margin: 0 0 20px;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.lab-name {
+  font-size: 17px;
+  color: #333333;
+  margin: 0 0 2px;
+  letter-spacing: 0.04em;
+}
+
+.lab-title-en {
+  font-size: 13px;
+  color: #999999;
+  margin: 0 0 16px;
 }
 
 /* ==========================================================================
@@ -267,6 +395,11 @@ img {
 
 #footer a {
   color: #999999;
+}
+
+#footer a:hover {
+  color: #666666;
+  text-decoration: none;
 }
 
 #footer .copyright {
@@ -287,5 +420,9 @@ img {
   }
   #menu_head li a {
     padding: 10px 12px;
+  }
+  .topic-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }

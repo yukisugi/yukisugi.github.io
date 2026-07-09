@@ -1,7 +1,9 @@
+- title: Home
+  url: /
 - title: About
   url: /about/
-- title: Members
-  url: /members/
+- title: Research
+  url: /research/
 - title: Publications
   url: /publications/
 - title: Info
