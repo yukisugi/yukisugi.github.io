@@ -7,6 +7,13 @@ title: About
 
 {% assign cv = site.data.cv_profile %}
 {% assign me = site.data.members.faculty | first %}
+<div class="prose">
+  <p>
+    電子顕微鏡・クライオ電子顕微鏡（cryo-EM）を用いて、生体高分子の構造と機能を明らかにする研究を行っています。
+    研究内容の詳細は<a href="{{ '/research/' | relative_url }}">Researchページ</a>をご覧ください。
+  </p>
+</div>
+
 <div class="section-group">
   <h2>Links</h2>
   <span class="member-links">
@@ -47,3 +54,21 @@ title: About
     {% endfor %}
   </table>
 </div>
+
+{% if cv.awards.size > 0 %}
+<div class="section-group">
+  <h2>受賞</h2>
+  <table class="cv-table">
+    {% for award in cv.awards %}
+    <tr><td>{{ award.period }}</td><td>{{ award.ja }}</td><td>{{ award.organization }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+{% endif %}
+
+{% if cv.research_interests.ja.size > 0 %}
+<div class="section-group">
+  <h2>研究キーワード</h2>
+  <p>{{ cv.research_interests.ja | join: " / " }}</p>
+</div>
+{% endif %}
