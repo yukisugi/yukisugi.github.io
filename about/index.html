@@ -29,15 +29,6 @@ title: About
 </div>
 
 <div class="section-group">
-  <h2>教育業務・担当授業</h2>
-  <table class="cv-table">
-    {% for teaching in cv.teaching_experience %}
-    <tr><td>{{ teaching.period }}</td><td>{{ teaching.ja }}</td><td>{{ teaching.institution_ja }}</td></tr>
-    {% endfor %}
-  </table>
-</div>
-
-<div class="section-group">
   <h2>経歴</h2>
   <table class="cv-table">
     {% for appointment in cv.appointments %}
