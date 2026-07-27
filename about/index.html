@@ -59,6 +59,16 @@ title: About
       {% assign education_ja = education_ja | replace: link.text, linked %}
     {% endfor %}
     <tr><td>{{ education.period | split: "–" | last }}</td><td>{{ education.degree.ja }}</td><td>{{ education_ja }}</td></tr>
+    {% if education.period contains "2004-04" %}
+    <tr><td>2003-03</td><td></td><td><a href="https://www.rakunan-h.ed.jp/" target="_blank" rel="noopener">洛南高等学校</a>（III類内部進学コース）卒業</td></tr>
+    {% endif %}
     {% endfor %}
+  </table>
+</div>
+
+<div class="section-group">
+  <h2>免許・資格</h2>
+  <table class="cv-table">
+    <tr><td>2010-05</td><td>獣医師免許</td><td>農林水産省</td></tr>
   </table>
 </div>
