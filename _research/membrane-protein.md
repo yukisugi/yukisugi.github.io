@@ -2,7 +2,7 @@
 title: 生体膜タンパク質
 category: collaboration
 order: 2
-thumbnail: /assets/img/research/membrane-protein.svg
+thumbnail: /assets/images/KOR.jpg
 summary: 生体膜タンパク質の構造解析を共同研究で進める。
 ---
 

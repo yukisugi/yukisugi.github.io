@@ -2,7 +2,7 @@
 title: エボラウイルス
 category: viruses
 order: 2
-thumbnail: /assets/img/research/ebola.svg
+thumbnail: /assets/images/EBOV_N-RNA.jpg
 summary: エボラウイルスのヌクレオカプシドの構造から、感染・増殖の分子基盤に迫る。
 ---
 
