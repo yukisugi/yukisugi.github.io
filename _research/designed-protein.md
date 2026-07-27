@@ -2,7 +2,10 @@
 title: 設計タンパク質複合体
 category: collaboration
 order: 3
-thumbnail: /assets/img/research/designed-protein.svg
+thumbnail: /assets/images/PuuE.jpg
+dois:
+  - 10.1101/2025.11.24.689909
+  - 10.1038/s41467-025-62076-3
 summary: 合成生物学的手法によりデザインされたタンパク質複合体の構造を共同研究で解析する。
 ---
 

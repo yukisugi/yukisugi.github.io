@@ -3,6 +3,14 @@ title: 生体膜タンパク質
 category: collaboration
 order: 2
 thumbnail: /assets/images/KOR.jpg
+dois:
+  - 10.1126/science.adz3996
+  - 10.1038/s41467-025-64882-1
+  - 10.1073/pnas.2507421122
+  - 10.1038/s41467-024-51960-z
+  - 10.1038/s41467-023-42260-z
+  - 10.1016/j.celrep.2022.111323
+  - 10.3390/molecules26185462
 summary: 生体膜タンパク質の構造解析を共同研究で進める。
 ---
 

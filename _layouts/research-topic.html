@@ -13,3 +13,17 @@ layout: default
 <div class="prose">
   {{ content }}
 </div>
+
+{% if page.dois %}
+{% assign related_pubs = site.data.publications | where_exp: "pub", "page.dois contains pub.doi" %}
+{% if related_pubs.size > 0 %}
+<div class="section-group">
+  <h2>関連論文</h2>
+  <ul class="pub-list">
+    {% for pub in related_pubs %}
+    {% include publication_entry.html pub=pub %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endif %}

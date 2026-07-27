@@ -206,6 +206,15 @@ img {
   white-space: nowrap;
 }
 
+.cv-table a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cv-table a:hover {
+  text-decoration: underline;
+}
+
 .member-list li {
   display: flex;
   align-items: baseline;
@@ -237,6 +246,10 @@ img {
   margin-right: 6px;
   border: 1px solid #cccccc;
   color: #666666;
+}
+
+.member-links a.sns-link-start {
+  margin-left: 14px;
 }
 
 .member-links a:hover {

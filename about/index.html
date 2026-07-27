@@ -9,7 +9,7 @@ title: About
 {% assign me = site.data.members.faculty | first %}
 <div class="prose">
   <p>
-    電子顕微鏡・クライオ電子顕微鏡（cryo-EM）を用いて、生体高分子の構造と機能を明らかにする研究を行っています。
+    クライオ電子顕微鏡（cryo-EM）による構造解析と分子生物学的な解析を組み合わせて、生体高分子の構造と機能を明らかにする研究を行っています。
     研究内容の詳細は<a href="{{ '/research/' | relative_url }}">Researchページ</a>をご覧ください。
   </p>
 </div>
@@ -20,11 +20,15 @@ title: About
     {% if cv.identifiers.orcid %}<a href="https://orcid.org/{{ cv.identifiers.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
     {% if me.google_scholar_id %}<a href="https://scholar.google.com/citations?user={{ me.google_scholar_id }}&hl=ja" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
     {% if cv.identifiers.researchmap %}<a href="{{ cv.identifiers.researchmap }}" target="_blank" rel="noopener">Researchmap</a>{% endif %}
-    {% if me.x %}<a href="{{ me.x }}" target="_blank" rel="noopener">X</a>{% endif %}
+    <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/ja.7e60867b72330158.html" target="_blank" rel="noopener">Kyoto Univ DB</a>
+    {% if me.x %}<a href="{{ me.x }}" target="_blank" rel="noopener" class="sns-link-start">X</a>{% endif %}
     {% if me.bluesky %}<a href="{{ me.bluesky }}" target="_blank" rel="noopener">Bluesky</a>{% endif %}
   </span>
   <p class="aside-link">
     <a href="https://preducts.jp/blogs/journal/interview-yukihiko-sugita" target="_blank" rel="noopener">“形を見る”感動が、探究の原動力</a>（PREDUCTS JOURNAL インタビュー・2023）
+  </p>
+  <p class="aside-link">
+    <a href="https://globe.asahi.com/article/11892506" target="_blank" rel="noopener">世界を震撼させたエボラ出血熱――「見えない敵」との闘いに挑む</a>（朝日新聞GLOBE+・2018）
   </p>
 </div>
 
@@ -32,7 +36,12 @@ title: About
   <h2>経歴</h2>
   <table class="cv-table">
     {% for appointment in cv.appointments %}
-    <tr><td>{{ appointment.period }}</td><td colspan="2">{{ appointment.ja }}</td></tr>
+    {% assign appointment_ja = appointment.ja %}
+    {% for link in site.data.institution_links %}
+      {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
+      {% assign appointment_ja = appointment_ja | replace: link.text, linked %}
+    {% endfor %}
+    <tr><td>{{ appointment.period | replace: "–", " – " }}</td><td colspan="2">{{ appointment_ja }}</td></tr>
     {% endfor %}
   </table>
 </div>
@@ -41,25 +50,15 @@ title: About
   <h2>学歴</h2>
   <table class="cv-table">
     {% for education in cv.education %}
-    <tr><td>{{ education.period }}</td><td>{{ education.degree.ja }}</td><td>{{ education.ja }}</td></tr>
+    {% assign education_ja = education.ja | remove: " 博士課程" | remove: "博士課程" %}
+    {% if education_ja contains "北海道大学" %}
+      {% assign education_ja = education_ja | append: "（微生物学教室）" %}
+    {% endif %}
+    {% for link in site.data.institution_links %}
+      {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
+      {% assign education_ja = education_ja | replace: link.text, linked %}
+    {% endfor %}
+    <tr><td>{{ education.period | split: "–" | last }}</td><td>{{ education.degree.ja }}</td><td>{{ education_ja }}</td></tr>
     {% endfor %}
   </table>
 </div>
-
-{% if cv.awards.size > 0 %}
-<div class="section-group">
-  <h2>受賞</h2>
-  <table class="cv-table">
-    {% for award in cv.awards %}
-    <tr><td>{{ award.period }}</td><td>{{ award.ja }}</td><td>{{ award.organization }}</td></tr>
-    {% endfor %}
-  </table>
-</div>
-{% endif %}
-
-{% if cv.research_interests.ja.size > 0 %}
-<div class="section-group">
-  <h2>研究キーワード</h2>
-  <p>{{ cv.research_interests.ja | join: " / " }}</p>
-</div>
-{% endif %}
