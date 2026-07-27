@@ -35,13 +35,14 @@ title: About
 <div class="section-group">
   <h2>経歴</h2>
   <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
     {% for appointment in cv.appointments %}
-    {% assign appointment_ja = appointment.ja | replace: "電子線構造学研究室", "電子線構造生物学研究室" %}
+    {% assign appointment_ja = appointment.ja | replace: "電子線構造学研究室", "電子線構造生物学研究室" | replace: "特定助教（受入教員：野田岳志教授）", "微細構造ウイルス学分野 特定助教" %}
     {% for link in site.data.institution_links %}
       {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
       {% assign appointment_ja = appointment_ja | replace: link.text, linked %}
     {% endfor %}
-    <tr><td>{{ appointment.period | replace: "–", " – " }}</td><td colspan="2">{{ appointment_ja }}</td></tr>
+    <tr><td>{{ appointment.period | replace: "–", " – " | replace: "present", "現在" }}</td><td></td><td>{{ appointment_ja }}</td></tr>
     {% endfor %}
   </table>
 </div>
@@ -49,6 +50,7 @@ title: About
 <div class="section-group">
   <h2>学歴</h2>
   <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
     {% for education in cv.education %}
     {% assign education_ja = education.ja | remove: " 博士課程" | remove: "博士課程" %}
     {% if education_ja contains "北海道大学" %}
@@ -69,6 +71,7 @@ title: About
 <div class="section-group">
   <h2>免許・資格</h2>
   <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
     <tr><td>2010-05</td><td>獣医師免許</td><td>農林水産省</td></tr>
   </table>
 </div>

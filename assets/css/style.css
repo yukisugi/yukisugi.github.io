@@ -189,6 +189,8 @@ img {
 
 .cv-table {
   border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
 }
 
 .cv-table td {
