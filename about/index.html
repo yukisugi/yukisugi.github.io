@@ -36,7 +36,7 @@ title: About
   <h2>経歴</h2>
   <table class="cv-table">
     {% for appointment in cv.appointments %}
-    {% assign appointment_ja = appointment.ja %}
+    {% assign appointment_ja = appointment.ja | replace: "電子線構造学研究室", "電子線構造生物学研究室" %}
     {% for link in site.data.institution_links %}
       {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
       {% assign appointment_ja = appointment_ja | replace: link.text, linked %}
