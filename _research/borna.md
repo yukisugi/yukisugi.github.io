@@ -2,7 +2,7 @@
 title: ボルナ病ウイルス
 category: viruses
 order: 3
-thumbnail: /assets/img/research/borna.svg
+thumbnail: /assets/images/BoDV1_N.jpg
 summary: ボルナ病ウイルスの核内複製にかかわる複合体の構造を解析する。
 ---
 
