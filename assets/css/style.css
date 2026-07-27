@@ -314,6 +314,8 @@ img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
   background-color: #f2f2f0;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
 }
 
 .topic-card-title {
@@ -332,7 +334,7 @@ img {
 }
 
 .topic-card:hover img {
-  opacity: 0.85;
+  filter: grayscale(0%);
 }
 
 .topic-hero {
