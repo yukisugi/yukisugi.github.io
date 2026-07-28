@@ -25,3 +25,16 @@ layout: default
 </div>
 {% endif %}
 {% endif %}
+
+{% assign topic_slug = page.name | split: "." | first %}
+{% assign related_notes = site.notes | where_exp: "note", "note.tags contains topic_slug" | sort: "date" | reverse %}
+{% if related_notes.size > 0 %}
+<div class="section-group">
+  <h2>関連Notes</h2>
+  <ul class="pub-list">
+    {% for note in related_notes %}
+    <li><span class="home-news-date">{{ note.date | date: "%Y-%m-%d" }}</span> <a href="{{ note.url | relative_url }}">{{ note.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

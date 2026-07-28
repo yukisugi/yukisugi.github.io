@@ -288,15 +288,6 @@ img {
    Home
    ========================================================================== */
 
-.home-more {
-  margin-top: 28px;
-  font-size: 14px;
-}
-
-.home-more a {
-  color: var(--ku-blue);
-}
-
 .home-news {
   margin-top: 64px;
 }
@@ -307,6 +298,14 @@ img {
   letter-spacing: 0.08em;
   color: #999999;
   margin-bottom: 10px;
+}
+
+.home-news h2 a {
+  color: inherit;
+}
+
+.home-news h2 a:hover {
+  color: var(--ku-blue);
 }
 
 .home-news ul {

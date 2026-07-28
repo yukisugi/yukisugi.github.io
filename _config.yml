@@ -35,7 +35,7 @@ collections:
     permalink: /research/:name/
   notes:
     output: true
-    permalink: /notes/:year/:month/:day/:name/
+    permalink: /notes/:name/
 
 defaults:
   - scope:
