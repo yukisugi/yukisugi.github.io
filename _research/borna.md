@@ -1,7 +1,7 @@
 ---
 title: ボルナ病ウイルス
 category: viruses
-order: 3
+order: 1
 thumbnail: /assets/images/BoDV1_N.jpg
 dois:
   - 10.1126/sciadv.aeb0835

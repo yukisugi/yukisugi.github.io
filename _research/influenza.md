@@ -1,8 +1,8 @@
 ---
 title: インフルエンザウイルス
 category: viruses
-order: 1
-thumbnail: /assets/img/research/influenza.svg
+order: 3
+thumbnail: /assets/images/IFV-TEM.jpg
 dois:
   - 10.1038/s42003-021-02388-4
   - 10.1016/j.chom.2014.11.002
