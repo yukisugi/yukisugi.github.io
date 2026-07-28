@@ -380,16 +380,20 @@ img {
 }
 
 .lab-name {
+  margin: 0 0 16px;
+}
+
+.lab-name-ja {
   font-size: 17px;
+  font-weight: bold;
   color: #333333;
-  margin: 0 0 2px;
   letter-spacing: 0.04em;
 }
 
 .lab-title-en {
   font-size: 13px;
   color: #999999;
-  margin: 0 0 16px;
+  margin-left: 12px;
 }
 
 /* ==========================================================================
