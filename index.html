@@ -22,7 +22,7 @@ title: null
   <ul>
     {% for item in news_items %}
     <li>
-      <span class="home-news-date">{{ item.date | date: "%Y.%m.%d" }}</span>
+      <span class="home-news-date">{{ item.date | date: "%Y-%m-%d" }}</span>
       {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.text }}{% endif %}
     </li>
     {% endfor %}

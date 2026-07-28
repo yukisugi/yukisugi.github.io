@@ -10,7 +10,7 @@ permalink: /notes/
   {% assign notes = site.notes | sort: "date" | reverse %}
   {% for note in notes %}
   <li>
-    <span class="home-news-date">{{ note.date | date: "%Y.%m.%d" }}</span>
+    <span class="home-news-date">{{ note.date | date: "%Y-%m-%d" }}</span>
     <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
   </li>
   {% endfor %}
