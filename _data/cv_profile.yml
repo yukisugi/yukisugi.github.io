@@ -90,7 +90,7 @@ education:
   ja: 北海道大学 獣医学部
   degree:
     en: D.V.M.
-    ja: 学士（獣医）
+    ja: 学士（獣医学）
   source: https://researchmap.jp/y-sugita
 teaching_experience:
 - period: 2026-04–2027-03
@@ -291,11 +291,11 @@ grants:
   role: Co-Investigator
   en: 'Structural basis of STAT multimerization governing output diversity, and analysis
     of viral proteins that counteract it (PI: Toyoyuki Ose)'
-  ja: 出力多様性を司るSTAT多量体化の構造基盤と，それに抗するウイルスタンパク質の解析（代表：尾瀬農之）
+  ja: 出力多様性を司るSTAT多量体化の構造基盤と，それに抗するウイルス蛋白質の解析（代表：尾瀬農之）
   scheme: KAKENHI Grant-in-Aid for Scientific Research (B)
   scheme_ja: 科学研究費助成事業 基盤研究（B）
   source: https://nrid.nii.ac.jp/ja/nrid/1000000734469/
-- period: 2024-04–2026-03
+- period: 2024-04–2027-03
   role: Co-Investigator
   en: 'Understanding toxin membrane-permeation systems via liposome single-particle
     analysis (PI: Hideaki Tsuge)'
