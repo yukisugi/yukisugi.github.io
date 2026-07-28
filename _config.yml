@@ -33,6 +33,9 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  notes:
+    output: true
+    permalink: /notes/:year/:month/:day/:name/
 
 defaults:
   - scope:
@@ -40,6 +43,15 @@ defaults:
       type: research
     values:
       layout: research-topic
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+
+feed:
+  collections:
+    - notes
 
 exclude:
   - Gemfile

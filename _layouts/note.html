@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+<p class="note-meta">
+  <span class="note-date">{{ page.date | date: "%Y.%m.%d" }}</span>
+  {% if page.tags %}{% for tag in page.tags %}<span class="note-tag">#{{ tag }}</span>{% endfor %}{% endif %}
+</p>
+
+<div class="prose">
+  {{ content }}
+</div>

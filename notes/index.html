@@ -1,0 +1,17 @@
+---
+layout: default
+title: Notes
+permalink: /notes/
+---
+
+<h1 class="page-title">Notes</h1>
+
+<ul class="pub-list">
+  {% assign notes = site.notes | sort: "date" | reverse %}
+  {% for note in notes %}
+  <li>
+    <span class="home-news-date">{{ note.date | date: "%Y.%m.%d" }}</span>
+    <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
