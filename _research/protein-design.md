@@ -3,6 +3,7 @@ title: 人工タンパク質複合体
 category: collaboration
 order: 3
 thumbnail: /assets/images/PuuE.jpg
+thumbnail_caption: 人工設計2成分性チューブ状集合体の構造
 dois:
   - 10.1101/2025.11.24.689909
   - 10.1038/s41467-025-62076-3

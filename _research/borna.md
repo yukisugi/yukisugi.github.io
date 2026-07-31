@@ -3,6 +3,7 @@ title: ボルナ病ウイルス
 category: viruses
 order: 1
 thumbnail: /assets/images/BoDV1_N.jpg
+thumbnail_caption: ボルナ病ウイルス核タンパク質–RNA複合体のリング構造
 dois:
   - 10.1126/sciadv.aeb0835
 summary: ボルナウイルスの複製にかかわる複合体の構造を明らかにする。

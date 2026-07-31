@@ -3,6 +3,7 @@ title: エボラウイルス
 category: viruses
 order: 2
 thumbnail: /assets/images/EBOV_N-RNA.jpg
+thumbnail_caption: エボラウイルス核タンパク質–RNA複合体のらせん構造
 dois:
   - 10.1038/s41467-025-57236-4
   - 10.1038/s41586-018-0630-0

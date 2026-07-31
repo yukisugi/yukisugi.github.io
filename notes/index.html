@@ -7,11 +7,11 @@ permalink: /notes/
 <h1 class="page-title">Notes</h1>
 
 <ul class="pub-list">
-  {% assign notes = site.notes | sort: "date" | reverse %}
+  {% assign notes = site.data.notes | concat: site.notes | sort: "date" | reverse %}
   {% for note in notes %}
   <li>
     <span class="home-news-date">{{ note.date | date: "%Y-%m-%d" }}</span>
-    <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+    {% if note.url %}<a href="{{ note.url | relative_url }}">{{ note.title }}</a>{% else %}{{ note.text }}{% endif %}
   </li>
   {% endfor %}
 </ul>

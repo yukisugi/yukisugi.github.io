@@ -3,6 +3,7 @@ title: 生体膜タンパク質
 category: collaboration
 order: 2
 thumbnail: /assets/images/KOR.jpg
+thumbnail_caption: κオピオイド受容体–Gタンパク質複合体の構造
 dois:
   - 10.1126/science.adz3996
   - 10.1038/s41467-025-64882-1

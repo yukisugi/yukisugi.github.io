@@ -5,7 +5,10 @@ layout: default
 <h1 class="page-title">{{ page.title }}</h1>
 
 {% if page.thumbnail %}
-<img class="topic-hero" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+<figure class="topic-hero-figure">
+  <img class="topic-hero" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+  {% if page.thumbnail_caption %}<figcaption class="topic-hero-caption">{{ page.thumbnail_caption }}</figcaption>{% endif %}
+</figure>
 {% endif %}
 
 <div class="prose">

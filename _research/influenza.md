@@ -3,6 +3,7 @@ title: インフルエンザウイルス
 category: viruses
 order: 3
 thumbnail: /assets/images/IFV-TEM.jpg
+thumbnail_caption: インフルエンザウイルス粒子超薄切片の電子顕微鏡像
 dois:
   - 10.1038/s42003-021-02388-4
   - 10.1016/j.chom.2014.11.002

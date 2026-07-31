@@ -15,7 +15,7 @@ title: null
   {% endfor %}
 </div>
 
-{% assign news_items = site.data.news | concat: site.notes | sort: "date" | reverse %}
+{% assign news_items = site.data.notes | concat: site.notes | sort: "date" | reverse %}
 {% if news_items.size > 0 %}
 <div class="home-news">
   <h2><a href="{{ '/notes/' | relative_url }}">Notes</a></h2>
