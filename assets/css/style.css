@@ -340,6 +340,7 @@ img {
 .home-topic-grid {
   grid-template-columns: repeat(6, 1fr);
   gap: 8px;
+  margin-top: 80px;
 }
 
 .topic-card {
