@@ -124,7 +124,7 @@ img {
 #contents {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 24px 80px;
+  padding: 0 24px 40px;
   min-height: 50vh;
 }
 
@@ -270,6 +270,10 @@ img {
   font-size: 15px;
 }
 
+.notes-list li {
+  border-bottom: none;
+}
+
 /* ==========================================================================
    Notes
    ========================================================================== */
@@ -331,6 +335,11 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+
+.home-topic-grid {
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
 }
 
 .topic-card {
@@ -396,6 +405,8 @@ img {
 
 .prose p {
   margin: 0 0 20px;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 
 .prose p:last-child {

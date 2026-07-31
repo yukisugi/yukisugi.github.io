@@ -6,7 +6,7 @@ permalink: /notes/
 
 <h1 class="page-title">Notes</h1>
 
-<ul class="pub-list">
+<ul class="pub-list notes-list">
   {% assign notes = site.data.notes | concat: site.notes | sort: "date" | reverse %}
   {% for note in notes %}
   <li>
