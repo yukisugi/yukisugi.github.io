@@ -1,5 +1,5 @@
 ---
-title: "共著論文が出版されました: 細胞骨格に似た2成分性チューブ状集合体のタンパク質デザイン"
+title: "共著論文が出版されました: 2成分チューブ状集合体のタンパク質デザイン"
 date: 2025-07-22
 tags: [protein-design, paper]
 ---
@@ -10,7 +10,7 @@ tags: [protein-design, paper]
 
 - Noji M, Sugita Y, Yamazaki Y, Miyazaki M, Suzuki Y. "Protein Design of Two-Component Tubular Assemblies Similar to Cytoskeletons" *Nature Communications* 16, 6738 (2025). doi:[10.1038/s41467-025-62076-3](https://doi.org/10.1038/s41467-025-62076-3){:target="_blank" rel="noopener"}
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:20px;">
-<blockquote class="twitter-tweet" data-width="350"><a href="https://twitter.com/nojimang/status/1948248011005366418"></a></blockquote>
-<blockquote class="twitter-tweet" data-width="350"><a href="https://twitter.com/YutaSuzukiLab/status/1948260297657233696"></a></blockquote>
+<div style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:3rem;">
+<blockquote class="twitter-tweet" data-width="300"><a href="https://twitter.com/nojimang/status/1948248011005366418"></a></blockquote>
+<blockquote class="twitter-tweet" data-width="300"><a href="https://twitter.com/YutaSuzukiLab/status/1948260297657233696"></a></blockquote>
 </div>
