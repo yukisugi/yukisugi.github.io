@@ -10,7 +10,7 @@ tags: [protein-design, paper]
 
 - Noji M, Sugita Y, Yamazaki Y, Miyazaki M, Suzuki Y. "Protein Design of Two-Component Tubular Assemblies Similar to Cytoskeletons" *Nature Communications* 16, 6738 (2025). doi:[10.1038/s41467-025-62076-3](https://doi.org/10.1038/s41467-025-62076-3){:target="_blank" rel="noopener"}
 
-<div style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:3rem;">
-<blockquote class="twitter-tweet" data-width="300"><a href="https://twitter.com/nojimang/status/1948248011005366418"></a></blockquote>
-<blockquote class="twitter-tweet" data-width="300"><a href="https://twitter.com/YutaSuzukiLab/status/1948260297657233696"></a></blockquote>
+<div style="display:flex; flex-wrap:nowrap; gap:1rem; margin-top:3rem;">
+<blockquote class="twitter-tweet" data-width="300" style="flex:1 1 0; min-width:0;"><a href="https://twitter.com/nojimang/status/1948248011005366418"></a></blockquote>
+<blockquote class="twitter-tweet" data-width="300" style="flex:1 1 0; min-width:0;"><a href="https://twitter.com/YutaSuzukiLab/status/1948260297657233696"></a></blockquote>
 </div>
