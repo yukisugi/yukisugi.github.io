@@ -6,7 +6,6 @@ title: About
 <h1 class="page-title">About</h1>
 
 {% assign cv = site.data.cv_profile %}
-{% assign me = site.data.members.faculty | first %}
 <div class="prose">
   <p>
     奈良県出身。生き物好きが高じて北海道大学獣医学部に進学し、臨床獣医師になるか迷いましたが、小さなウイルスが宿主個体だけでなく生態系にまで大きな影響を与えうる存在であることに興味を抱いて研究の道に進みました。
@@ -18,11 +17,11 @@ title: About
   <h2>Links</h2>
   <span class="member-links">
     {% if cv.identifiers.orcid %}<a href="https://orcid.org/{{ cv.identifiers.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
-    {% if me.google_scholar_id %}<a href="https://scholar.google.com/citations?user={{ me.google_scholar_id }}&hl=ja" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+    {% if site.google_scholar_id %}<a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}&hl=ja" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
     {% if cv.identifiers.researchmap %}<a href="{{ cv.identifiers.researchmap }}" target="_blank" rel="noopener">Researchmap</a>{% endif %}
     <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/ja.7e60867b72330158.html" target="_blank" rel="noopener">Kyoto Univ DB</a>
-    {% if me.x %}<a href="{{ me.x }}" target="_blank" rel="noopener" class="sns-link-start">X</a>{% endif %}
-    {% if me.bluesky %}<a href="{{ me.bluesky }}" target="_blank" rel="noopener">Bluesky</a>{% endif %}
+    {% if site.x_url %}<a href="{{ site.x_url }}" target="_blank" rel="noopener" class="sns-link-start">X</a>{% endif %}
+    {% if site.bluesky_url %}<a href="{{ site.bluesky_url }}" target="_blank" rel="noopener">Bluesky</a>{% endif %}
   </span>
   <p class="aside-link">
     <a href="https://preducts.jp/blogs/journal/interview-yukihiko-sugita" target="_blank" rel="noopener">“形を見る”感動が、探究の原動力</a>（PREDUCTS JOURNAL インタビュー・2023）
