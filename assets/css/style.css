@@ -128,31 +128,6 @@ img {
   min-height: 50vh;
 }
 
-.hero {
-  padding: 60px 0 40px;
-  border-bottom: 1px solid #eeeeee;
-  margin-bottom: 40px;
-}
-
-.hero h1 {
-  font-size: 28px;
-  font-weight: normal;
-  letter-spacing: 0.05em;
-  margin: 0 0 8px;
-}
-
-.hero .hero-en {
-  font-size: 14px;
-  color: #999999;
-  letter-spacing: 0.05em;
-}
-
-.hero .hero-affiliation {
-  font-size: 14px;
-  margin-top: 20px;
-  color: #555555;
-}
-
 .page-title {
   font-size: 22px;
   font-weight: normal;
@@ -162,13 +137,8 @@ img {
   border-bottom: 1px solid #eeeeee;
 }
 
-.title-credentials {
-  font-size: 0.8em;
-  color: #999999;
-}
-
 /* ==========================================================================
-   Section groups (used by Members and Info pages)
+   Section groups (used by About and Info pages)
    ========================================================================== */
 
 .section-group {
@@ -215,29 +185,6 @@ img {
 
 .cv-table a:hover {
   text-decoration: underline;
-}
-
-.member-list li {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-}
-
-.member-name {
-  width: 400px;
-  flex-shrink: 0;
-}
-
-.member-role {
-  color: #999999;
-  font-size: 13px;
-  margin-left: 8px;
-}
-
-.member-name-en {
-  color: #999999;
-  font-size: 13px;
-  margin-left: 8px;
 }
 
 .member-links a {
