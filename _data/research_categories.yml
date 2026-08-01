@@ -1,0 +1,7 @@
+# Research pillars (large categories). Topic notes reference these by `id`.
+- id: viruses
+  title: 病原性ウイルス
+  order: 1
+- id: collaboration
+  title: 共同研究
+  order: 2

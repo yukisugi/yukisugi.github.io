@@ -1,0 +1,59 @@
+# Site settings
+# Accessible in templates via {{ site.xxx }}
+
+# Personal site owner
+title: 杉田 征彦
+title_en: "Yukihiko Sugita"
+name_credentials: "DVM, PhD"
+description: >-
+  京都大学医生物学研究所 超分子構造学分野 准教授、杉田征彦の個人ウェブサイト。
+  構造生物学と分子ウイルス学によるウイルス・生体超分子研究。
+
+# Lab / affiliation (used on the Lab page)
+lab_title: 超分子構造学分野
+lab_title_en: "Laboratory of Supramolecular Structural Biology"
+institute: 京都大学医生物学研究所
+institute_url: "https://www.infront.kyoto-u.ac.jp/"
+affiliation_suffix: " 附属感染症モデル研究センター"
+email: sugita.yukihiko.8w@kyoto-u.ac.jp
+tel: "075-751-4048"
+address: "〒606-8507 京都市左京区聖護院川原町53"
+google_scholar_id: "e7XLIPAAAAAJ"
+x_url: "https://x.com/yuki_sugi"
+bluesky_url: "https://bsky.app/profile/yuki-sugita.bsky.social"
+
+baseurl: ""
+url: "https://yukisugi.github.io"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research-topic
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+
+feed:
+  collections:
+    - notes
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

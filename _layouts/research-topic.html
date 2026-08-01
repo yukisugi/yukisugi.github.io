@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+{% if page.thumbnail %}
+<figure class="topic-hero-figure">
+  <img class="topic-hero" src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}">
+  {% if page.thumbnail_caption %}<figcaption class="topic-hero-caption">{{ page.thumbnail_caption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
+
+<div class="prose">
+  {{ content }}
+</div>
+
+{% if page.dois %}
+{% assign related_pubs = site.data.publications | where_exp: "pub", "page.dois contains pub.doi" %}
+{% if related_pubs.size > 0 %}
+<div class="section-group">
+  <h2>関連論文</h2>
+  <ul class="pub-list">
+    {% for pub in related_pubs %}
+    {% include publication_entry.html pub=pub %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endif %}
+
+{% assign related_notes = site.notes | where_exp: "note", "note.tags contains page.slug" | sort: "date" | reverse %}
+{% if related_notes.size > 0 %}
+<div class="section-group">
+  <h2>関連Notes</h2>
+  <ul class="pub-list">
+    {% for note in related_notes %}
+      {% include note_list_item.html note=note %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

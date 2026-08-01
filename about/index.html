@@ -1,0 +1,62 @@
+---
+layout: default
+title: About
+---
+
+<h1 class="page-title">About</h1>
+
+{% assign cv = site.data.cv_profile %}
+<div class="prose">
+  <p>
+    奈良県出身。生き物好きが高じて北海道大学獣医学部に進学し、臨床獣医師になるか迷いましたが、小さなウイルスが宿主個体だけでなく生態系にまで大きな影響を与えうる存在であることに興味を抱いて研究の道に進みました。
+    電子顕微鏡を使ってウイルス粒子を目にしたときの感動が忘れられず、形態学を軸にウイルスをはじめとする生体分子の構造・ダイナミクスと機能との関わりを研究しています。
+  </p>
+</div>
+
+<div class="section-group">
+  <h2>Links</h2>
+  <span class="member-links">
+    {% if cv.identifiers.orcid %}<a href="https://orcid.org/{{ cv.identifiers.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
+    {% if site.google_scholar_id %}<a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}&hl=ja" target="_blank" rel="noopener">Google Scholar</a>{% endif %}
+    {% if cv.identifiers.researchmap %}<a href="{{ cv.identifiers.researchmap }}" target="_blank" rel="noopener">Researchmap</a>{% endif %}
+    <a href="https://kdb.iimc.kyoto-u.ac.jp/profile/ja.7e60867b72330158.html" target="_blank" rel="noopener">Kyoto Univ DB</a>
+    {% if site.x_url %}<a href="{{ site.x_url }}" target="_blank" rel="noopener" class="sns-link-start">X</a>{% endif %}
+    {% if site.bluesky_url %}<a href="{{ site.bluesky_url }}" target="_blank" rel="noopener">Bluesky</a>{% endif %}
+  </span>
+  <p class="aside-link">
+    <a href="https://preducts.jp/blogs/journal/interview-yukihiko-sugita" target="_blank" rel="noopener">“形を見る”感動が、探究の原動力</a>（PREDUCTS JOURNAL インタビュー・2023）
+  </p>
+  <p class="aside-link">
+    <a href="https://globe.asahi.com/article/11892506" target="_blank" rel="noopener">世界を震撼させたエボラ出血熱――「見えない敵」との闘いに挑む</a>（朝日新聞GLOBE+・2018）
+  </p>
+</div>
+
+<div class="section-group">
+  <h2>経歴</h2>
+  <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
+    {% for appointment in cv.appointments %}
+    {% capture appointment_ja %}{% include linkify_institutions.html text=appointment.ja %}{% endcapture %}
+    <tr><td>{{ appointment.period | replace: "–", " – " | replace: "present", "現在" }}</td><td></td><td>{{ appointment_ja | strip }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="section-group">
+  <h2>学歴</h2>
+  <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
+    {% for education in cv.education %}
+    {% capture education_ja %}{% include linkify_institutions.html text=education.ja %}{% endcapture %}
+    <tr><td>{{ education.period | split: "–" | last }}</td><td>{{ education.degree.ja }}</td><td>{{ education_ja | strip }}</td></tr>
+    {% endfor %}
+  </table>
+</div>
+
+<div class="section-group">
+  <h2>免許・資格</h2>
+  <table class="cv-table">
+    <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
+    <tr><td>2010-05</td><td>獣医師免許</td><td>農林水産省</td></tr>
+  </table>
+</div>
