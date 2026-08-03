@@ -155,6 +155,17 @@ img {
   margin-bottom: 12px;
 }
 
+.subsection-group h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+.subsection-group h2::before {
+  content: "・";
+}
+
 .section-group li {
   padding: 6px 0;
   font-size: 15px;
@@ -443,5 +454,10 @@ img {
   .topic-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+  }
+  .lab-title-en {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
   }
 }
