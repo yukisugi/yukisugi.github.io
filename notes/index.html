@@ -9,9 +9,6 @@ permalink: /notes/
 <ul class="pub-list notes-list">
   {% assign notes = site.data.notes | concat: site.notes | sort: "date" | reverse %}
   {% for note in notes %}
-  <li>
-    <span class="home-news-date">{{ note.date | date: "%Y-%m-%d" }}</span>
-    {% if note.url %}<a href="{{ note.url | relative_url }}">{{ note.title }}</a>{% else %}{{ note.text }}{% endif %}
-  </li>
+    {% include note_list_item.html note=note %}
   {% endfor %}
 </ul>

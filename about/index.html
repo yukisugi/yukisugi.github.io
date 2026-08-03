@@ -36,12 +36,8 @@ title: About
   <table class="cv-table">
     <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
     {% for appointment in cv.appointments %}
-    {% assign appointment_ja = appointment.ja | replace: "電子線構造学研究室", "電子線構造生物学研究室" | replace: "特定助教（受入教員：野田岳志教授）", "微細構造ウイルス学分野 特定助教" %}
-    {% for link in site.data.institution_links %}
-      {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
-      {% assign appointment_ja = appointment_ja | replace: link.text, linked %}
-    {% endfor %}
-    <tr><td>{{ appointment.period | replace: "–", " – " | replace: "present", "現在" }}</td><td></td><td>{{ appointment_ja }}</td></tr>
+    {% capture appointment_ja %}{% include linkify_institutions.html text=appointment.ja %}{% endcapture %}
+    <tr><td>{{ appointment.period | replace: "–", " – " | replace: "present", "現在" }}</td><td></td><td>{{ appointment_ja | strip }}</td></tr>
     {% endfor %}
   </table>
 </div>
@@ -51,18 +47,8 @@ title: About
   <table class="cv-table">
     <colgroup><col style="width: 90px;"><col style="width: 115px;"><col></colgroup>
     {% for education in cv.education %}
-    {% assign education_ja = education.ja | remove: " 博士課程" | remove: "博士課程" %}
-    {% if education_ja contains "北海道大学" %}
-      {% assign education_ja = education_ja | append: "（微生物学教室）" %}
-    {% endif %}
-    {% for link in site.data.institution_links %}
-      {% capture linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
-      {% assign education_ja = education_ja | replace: link.text, linked %}
-    {% endfor %}
-    <tr><td>{{ education.period | split: "–" | last }}</td><td>{{ education.degree.ja }}</td><td>{{ education_ja }}</td></tr>
-    {% if education.period contains "2004-04" %}
-    <tr><td>2003-03</td><td></td><td><a href="https://www.rakunan-h.ed.jp/" target="_blank" rel="noopener">洛南高等学校</a>（III類内部進学コース）卒業</td></tr>
-    {% endif %}
+    {% capture education_ja %}{% include linkify_institutions.html text=education.ja %}{% endcapture %}
+    <tr><td>{{ education.period | split: "–" | last }}</td><td>{{ education.degree.ja }}</td><td>{{ education_ja | strip }}</td></tr>
     {% endfor %}
   </table>
 </div>

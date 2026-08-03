@@ -1,0 +1,7 @@
+{% assign linkify_text = include.text %}
+{% for link in site.data.institution_links %}
+  {% capture linkify_linked %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>{% endcapture %}
+  {% assign linkify_text = linkify_text | replace: link.text, linkify_linked %}
+{% endfor %}
+{% assign linkify_text = linkify_text | replace: "</a><a ", "</a> <a " %}
+{{ linkify_text }}

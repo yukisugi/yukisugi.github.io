@@ -21,10 +21,7 @@ title: null
   <h2><a href="{{ '/notes/' | relative_url }}">Notes</a></h2>
   <ul>
     {% for item in news_items limit: 5 %}
-    <li>
-      <span class="home-news-date">{{ item.date | date: "%Y-%m-%d" }}</span>
-      {% if item.url %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% else %}{{ item.text }}{% endif %}
-    </li>
+      {% include note_list_item.html note=item %}
     {% endfor %}
   </ul>
 </div>

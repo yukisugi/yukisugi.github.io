@@ -6,6 +6,9 @@
   /* Kyoto University school color (dark blue) */
   --ku-blue: #00205b;
   --ku-blue-hover: #3d4f8a;
+  --text-muted: #999999;
+  --text-muted-hover: #666666;
+  --content-width: 960px;
 }
 
 * {
@@ -47,7 +50,7 @@ img {
 }
 
 .container {
-  max-width: 960px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -57,7 +60,7 @@ img {
    ========================================================================== */
 
 #header {
-  max-width: 960px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 45px 24px 0;
   margin-bottom: 60px;
@@ -87,7 +90,7 @@ img {
   display: block;
   font-size: 12px;
   letter-spacing: 0.03em;
-  color: #999999;
+  color: var(--text-muted);
 }
 
 #menu_head ul {
@@ -107,7 +110,7 @@ img {
 }
 
 #menu_head li a:hover {
-  color: #999999;
+  color: var(--text-muted);
   text-decoration: none;
 }
 
@@ -122,7 +125,7 @@ img {
    ========================================================================== */
 
 #contents {
-  max-width: 960px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 24px 40px;
   min-height: 50vh;
@@ -148,19 +151,8 @@ img {
 .section-group h2 {
   font-size: 15px;
   font-weight: normal;
-  color: #999999;
+  color: var(--text-muted);
   margin-bottom: 12px;
-}
-
-.section-group h3 {
-  font-size: 16px;
-  font-weight: normal;
-  color: #222222;
-  margin: 24px 0 10px;
-}
-
-.section-group h3::before {
-  content: "・";
 }
 
 .section-group li {
@@ -205,7 +197,7 @@ img {
   padding: 2px 8px;
   margin-right: 6px;
   border: 1px solid #cccccc;
-  color: #666666;
+  color: var(--text-muted-hover);
 }
 
 .member-links a.sns-link-start {
@@ -238,7 +230,7 @@ img {
 
 .note-meta {
   font-size: 13px;
-  color: #999999;
+  color: var(--text-muted);
   margin-bottom: 32px;
 }
 
@@ -258,7 +250,7 @@ img {
   font-size: 13px;
   font-weight: normal;
   letter-spacing: 0.08em;
-  color: #999999;
+  color: var(--text-muted);
   margin-bottom: 10px;
 }
 
@@ -272,7 +264,7 @@ img {
 
 .home-news ul {
   font-size: 13px;
-  color: #666666;
+  color: var(--text-muted-hover);
 }
 
 .home-news li {
@@ -326,7 +318,7 @@ img {
   margin-top: 4px;
   font-size: 13px;
   line-height: 1.7;
-  color: #999999;
+  color: var(--text-muted);
 }
 
 .topic-card:hover img {
@@ -349,7 +341,7 @@ img {
   margin-top: 8px;
   font-size: 13px;
   line-height: 1.6;
-  color: #999999;
+  color: var(--text-muted);
 }
 
 .aside-link {
@@ -385,7 +377,7 @@ img {
 
 .lab-title-en {
   font-size: 13px;
-  color: #999999;
+  color: var(--text-muted);
   margin-left: 12px;
 }
 
@@ -394,25 +386,43 @@ img {
    ========================================================================== */
 
 #footer {
-  max-width: 960px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 24px 24px 60px;
   font-size: 12px;
-  color: #999999;
+  color: var(--text-muted);
   border-top: 1px solid #eeeeee;
 }
 
 #footer a {
-  color: #999999;
+  color: var(--text-muted);
 }
 
 #footer a:hover {
-  color: #666666;
+  color: var(--text-muted-hover);
   text-decoration: none;
 }
 
 #footer .copyright {
   margin-top: 12px;
+}
+
+/* ==========================================================================
+   Not found (404)
+   ========================================================================== */
+
+.not-found {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.not-found img {
+  margin: 0 auto;
+}
+
+.not-found-title {
+  font-size: 3em;
+  font-weight: normal;
 }
 
 /* ==========================================================================
@@ -433,10 +443,5 @@ img {
   .topic-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-  }
-  .lab-title-en {
-    display: block;
-    margin-left: 0;
-    margin-top: 4px;
   }
 }
