@@ -1,3 +1,25 @@
+- title: A Concentration-Independent Paradigm Rendering Weak Interactions Inherently
+    Quantifiable
+  authors:
+  - Masahiko Yoshimura
+  - Fuyuki Matsuda
+  - Yoshiki Ikeda
+  - Chihiro Mori
+  - Tomoko Yoneda
+  - Minako Kikukawa
+  - Rie Murakami
+  - Chiharu Nogami
+  - Yukihiko Sugita
+  - Yoshiko Nakada-Nakura
+  - Masahiko Tsujimoto
+  - Daishi Fujita
+  year: '2026'
+  journal: arXiv
+  volume: ''
+  number: ''
+  pages: ''
+  doi: 10.48550/arxiv.2608.02865
+  url: https://arxiv.org/abs/2608.02865
 - title: Rabies Virus Antagonizes Interferon Signaling by Targeting Phosphorylated
     STAT1 Tetramers
   authors:
@@ -25,7 +47,7 @@
   journal: bioRxiv
   volume: ''
   number: ''
-  pages: 2026.07.29.741124
+  pages: ''
   doi: 10.64898/2026.07.29.741124
   url: https://www.biorxiv.org/content/10.64898/2026.07.29.741124v1
 - title: Thermally Tunable Heterodimeric Linkers Control Protein Tube Morphology
@@ -38,7 +60,7 @@
   journal: bioRxiv
   volume: ''
   number: ''
-  pages: 2025.11.24.689909
+  pages: ''
   doi: 10.1101/2025.11.24.689909
   url: https://www.biorxiv.org/content/10.1101/2025.11.24.689909v3
 - title: Structural Insights into Spectral Tuning and Retinal Exchange in Cone Visual
@@ -120,8 +142,8 @@
   - Takeshi Noda
   year: '2026'
   journal: Communications Biology
-  volume: ''
-  number: ''
+  volume: '9'
+  number: '1'
   pages: ''
   doi: 10.1038/s42003-026-09783-9
   url: https://doi.org/10.1038/s42003-026-09783-9
@@ -747,7 +769,7 @@
   year: '2012'
   journal: Nature communications
   volume: '3'
-  number: ''
+  number: '1'
   pages: '639'
   doi: 10.1038/ncomms1647
   url: http://www.nature.com/doifinder/10.1038/ncomms1647
