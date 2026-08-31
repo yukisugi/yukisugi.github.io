@@ -22,7 +22,7 @@ layout: default
   <h2>関連論文</h2>
   <ul class="pub-list">
     {% for pub in related_pubs %}
-    {% include publication_entry.html pub=pub %}
+    {% include publication_entry.html pub=pub show_preprint_tag=true %}
     {% endfor %}
   </ul>
 </div>

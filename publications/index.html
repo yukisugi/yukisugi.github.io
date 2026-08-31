@@ -5,8 +5,25 @@ title: Publications
 
 <h1 class="page-title">Publications</h1>
 
-<ul class="pub-list">
-  {% for pub in site.data.publications %}
-    {% include publication_entry.html pub=pub %}
-  {% endfor %}
-</ul>
+{% assign peer_reviewed = site.data.publications | where_exp: "pub", "pub.preprint != true" %}
+{% assign preprints = site.data.publications | where_exp: "pub", "pub.preprint" %}
+
+<div class="section-group">
+  <h2>Peer-reviewed</h2>
+  <ul class="pub-list">
+    {% for pub in peer_reviewed %}
+      {% include publication_entry.html pub=pub %}
+    {% endfor %}
+  </ul>
+</div>
+
+{% if preprints.size > 0 %}
+<div class="section-group">
+  <h2>Preprints</h2>
+  <ul class="pub-list">
+    {% for pub in preprints %}
+      {% include publication_entry.html pub=pub %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

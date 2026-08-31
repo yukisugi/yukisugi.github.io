@@ -231,6 +231,17 @@ img {
   font-size: 15px;
 }
 
+.pub-tag {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 6px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #999999;
+  white-space: nowrap;
+}
+
 .notes-list li {
   border-bottom: none;
 }

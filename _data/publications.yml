@@ -20,6 +20,7 @@
   pages: ''
   doi: 10.48550/arxiv.2608.02865
   url: https://arxiv.org/abs/2608.02865
+  preprint: true
 - title: Rabies Virus Antagonizes Interferon Signaling by Targeting Phosphorylated
     STAT1 Tetramers
   authors:
@@ -50,6 +51,7 @@
   pages: ''
   doi: 10.64898/2026.07.29.741124
   url: https://www.biorxiv.org/content/10.64898/2026.07.29.741124v1
+  preprint: true
 - title: Thermally Tunable Heterodimeric Linkers Control Protein Tube Morphology
   authors:
   - Masahiro Noji
@@ -63,6 +65,7 @@
   pages: ''
   doi: 10.1101/2025.11.24.689909
   url: https://www.biorxiv.org/content/10.1101/2025.11.24.689909v3
+  preprint: true
 - title: Structural Insights into Spectral Tuning and Retinal Exchange in Cone Visual
     Pigments
   authors:
@@ -92,6 +95,7 @@
   pages: eadz3996
   doi: 10.1126/science.adz3996
   url: https://www.science.org/doi/10.1126/science.adz3996
+  preprint: false
 - title: Structural Basis for the Folding of PINK1 by the HSP90–CDC37 Chaperone Complex
   authors:
   - Kei Okatsu
@@ -109,6 +113,7 @@
   pages: ''
   doi: 10.7554/elife.110255.1
   url: https://doi.org/10.7554/elife.110255.1
+  preprint: false
 - title: Structure and Assembly of Borna Disease Virus 1 Nucleoprotein-RNA Complexes
   authors:
   - Yukihiko Sugita
@@ -125,6 +130,7 @@
   pages: eaeb0835
   doi: 10.1126/sciadv.aeb0835
   url: https://www.science.org/doi/10.1126/sciadv.aeb0835
+  preprint: false
 - title: Multimerization of Secretory IgA Enhances Antiviral Activity by Aggregating
     Influenza A Virus Particles
   authors:
@@ -147,6 +153,7 @@
   pages: ''
   doi: 10.1038/s42003-026-09783-9
   url: https://doi.org/10.1038/s42003-026-09783-9
+  preprint: false
 - title: Structural Basis for Ebola Virus Nucleocapsid Assembly and Function Regulated
     by VP24
   authors:
@@ -167,6 +174,7 @@
   pages: '2171'
   doi: 10.1038/s41467-025-57236-4
   url: https://www.nature.com/articles/s41467-025-57236-4
+  preprint: false
 - title: Protein Design of Two-Component Tubular Assemblies Similar to Cytoskeletons
   authors:
   - Masahiro Noji
@@ -181,6 +189,7 @@
   pages: '6738'
   doi: 10.1038/s41467-025-62076-3
   url: https://www.nature.com/articles/s41467-025-62076-3
+  preprint: false
 - title: Structural Analysis Reveals How Tetrameric Tyrosine-Phosphorylated STAT1
     Is Targeted by the Rabies Virus P-protein
   authors:
@@ -210,6 +219,7 @@
   pages: eads2210
   doi: 10.1126/scisignal.ads2210
   url: https://www.science.org/doi/10.1126/scisignal.ads2210
+  preprint: false
 - title: Structural and Dynamic Insights into the Biased Signaling Mechanism of the
     Human Kappa Opioid Receptor
   authors:
@@ -243,6 +253,23 @@
   pages: ''
   doi: 10.1038/s41467-025-64882-1
   url: https://doi.org/10.1038/s41467-025-64882-1
+  preprint: false
+- title: Step-by-Step Maturation Mechanism of Binary Toxin Pore Revealed by Cryo-EM
+    Analysis
+  authors:
+  - Tomohito Yamada
+  - Yukihiko Sugita
+  - Toru Yoshida
+  - Takeshi Noda
+  - Hideaki Tsuge
+  year: '2025'
+  journal: bioRxiv
+  volume: ''
+  number: ''
+  pages: ''
+  doi: 10.1101/2024.10.10.617581
+  url: https://www.biorxiv.org/content/10.1101/2024.10.10.617581v2
+  preprint: true
 - title: Structural Insights into the G-protein Subtype Selectivity Revealed by Human
     Sphingosine-1-Phosphate Receptor 3–Gq Complexes
   authors:
@@ -266,6 +293,7 @@
   pages: ''
   doi: 10.1073/pnas.2507421122
   url: https://doi.org/10.1073/pnas.2507421122
+  preprint: false
 - title: Neurotransmitter Recognition by Human Vesicular Monoamine Transporter 2
   authors:
   - Dohyun Im
@@ -287,6 +315,7 @@
   pages: ''
   doi: 10.1038/s41467-024-51960-z
   url: https://doi.org/10.1038/s41467-024-51960-z
+  preprint: false
 - title: Induction of IGHV3-53 Public Antibodies with Broadly Neutralising Activity
     against SARS-CoV-2 Including Omicron Subvariants in a Delta Breakthrough Infection
     Case
@@ -421,21 +450,7 @@
   pages: '105439'
   doi: 10.1016/j.ebiom.2024.105439
   url: https://doi.org/10.1016/j.ebiom.2024.105439
-- title: Step-by-Step Maturation Mechanism of Binary Toxin Pore Revealed by Cryo-EM
-    Analysis
-  authors:
-  - Tomohito Yamada
-  - Yukihiko Sugita
-  - Toru Yoshida
-  - Takeshi Noda
-  - Hideaki Tsuge
-  year: '2024'
-  journal: bioRxiv
-  volume: ''
-  number: ''
-  pages: ''
-  doi: 10.1101/2024.10.10.617581
-  url: https://doi.org/10.1101/2024.10.10.617581
+  preprint: false
 - title: Cryoelectron Microscopic Structure of the Nucleoprotein–RNA Complex of the
     European Filovirus, Lloviu Virus
   authors:
@@ -454,6 +469,7 @@
   pages: pgad120
   doi: 10.1093/pnasnexus/pgad120
   url: https://academic.oup.com/pnasnexus/article/doi/10.1093/pnasnexus/pgad120/7109902
+  preprint: false
 - title: Structural Insights into the Agonists Binding and Receptor Selectivity of
     Human Histamine H4 Receptor
   authors:
@@ -475,6 +491,7 @@
   pages: ''
   doi: 10.1038/s41467-023-42260-z
   url: https://doi.org/10.1038/s41467-023-42260-z
+  preprint: false
 - title: Structural Insight into Marburg Virus Nucleoprotein–RNA Complex Formation
   authors:
   - Yoko Fujita-Fujiharu
@@ -495,6 +512,7 @@
   pages: '1191'
   doi: 10.1038/s41467-022-28802-x
   url: https://doi.org/10.1038/s41467-022-28802-x
+  preprint: false
 - title: Structural Insights into the G Protein Selectivity Revealed by the Human
     EP3-Gi Signaling Complex
   authors:
@@ -519,6 +537,7 @@
   pages: '111323'
   doi: 10.1016/j.celrep.2022.111323
   url: https://doi.org/10.1016/j.celrep.2022.111323
+  preprint: false
 - title: Functional Analysis of the GPI Transamidase Complex by Screening for Amino
     Acid Mutations in Each Subunit
   authors:
@@ -539,6 +558,7 @@
   pages: '5462'
   doi: 10.3390/molecules26185462
   url: https://doi.org/10.3390/molecules26185462
+  preprint: false
 - title: Ultrastructure of Influenza Virus Ribonucleoprotein Complexes during Viral
     RNA Synthesis
   authors:
@@ -556,6 +576,7 @@
   pages: '858'
   doi: 10.1038/s42003-021-02388-4
   url: https://doi.org/10.1038/s42003-021-02388-4
+  preprint: false
 - title: Structural Basis of Heterochromatin Formation by Human HP1.
   authors:
   - Shinichi Machida
@@ -573,6 +594,7 @@
   pages: 385-397.e8
   doi: 10.1016/j.molcel.2017.12.011
   url: http://linkinghub.elsevier.com/retrieve/pii/S1097276517309395
+  preprint: false
 - title: Lung-Derived Exosomal miR-483-3p Regulates the Innate Immune Response to
     Influenza Virus Infection
   authors:
@@ -590,6 +612,7 @@
   pages: 1372–1382
   doi: 10.1093/infdis/jiy035
   url: https://academic.oup.com/jid/article/217/9/1372/4823229
+  preprint: false
 - title: Cryo-EM Structure of the Ebola Virus Nucleoprotein–RNA Complex at 3.6 Å Resolution
   authors:
   - Yukihiko Sugita
@@ -604,6 +627,7 @@
   pages: 137–140
   doi: 10.1038/s41586-018-0630-0
   url: https://doi.org/10.1038/s41586-018-0630-0
+  preprint: false
 - title: Genetic and Antigenic Characterization of Bovine Viral Diarrhea Viruses Isolated
     from Cattle in Hokkaido, Japan
   authors:
@@ -629,6 +653,7 @@
   pages: 61–70
   doi: 10.1292/jvms.15-0186
   url: https://www.jstage.jst.go.jp/article/jvms/78/1/78_15-0186/_article
+  preprint: false
 - title: Actin-Modulating Protein Cofilin Is Involved in the Formation of Measles
     Virus Ribonucleoprotein Complex at the Perinuclear Region
   authors:
@@ -638,12 +663,13 @@
   - Yusuke Yanagi
   - Shinji Ohno
   year: '2015'
-  journal: Journal of virology
+  journal: Journal of Virology
   volume: '89'
   number: '20'
   pages: 10524–10531
   doi: 10.1128/JVI.01819-15
   url: http://jvi.asm.org/lookup/doi/10.1128/JVI.01819-15
+  preprint: false
 - title: Influenza Virus-Host Interactome Screen as a Platform for Antiviral Drug
     Development
   authors:
@@ -682,6 +708,7 @@
   pages: 795–805
   doi: 10.1016/j.chom.2014.11.002
   url: http://linkinghub.elsevier.com/retrieve/pii/S1931312814003989
+  preprint: false
 - title: Configuration of Viral Ribonucleoprotein Complexes within the Influenza A
     Virion
   authors:
@@ -690,12 +717,13 @@
   - Takeshi Noda
   - Yoshihiro Kawaoka
   year: '2013'
-  journal: Journal of virology
+  journal: Journal of Virology
   volume: '87'
   number: '23'
   pages: 12879–12884
   doi: 10.1128/JVI.02096-13
   url: http://jvi.asm.org/cgi/doi/10.1128/JVI.02096-13
+  preprint: false
 - title: Characterization of H7N9 Influenza A Viruses Isolated from Humans
   authors:
   - Tokiko Watanabe
@@ -755,6 +783,7 @@
   pages: 551–555
   doi: 10.1038/nature12392
   url: http://www.nature.com/doifinder/10.1038/nature12392
+  preprint: false
 - title: Three-Dimensional Analysis of Ribonucleoprotein Complexes in Influenza A
     Virus
   authors:
@@ -767,12 +796,13 @@
   - Hiroshi Sagara
   - Yoshihiro Kawaoka
   year: '2012'
-  journal: Nature communications
+  journal: Nature Communications
   volume: '3'
   number: '1'
   pages: '639'
   doi: 10.1038/ncomms1647
   url: http://www.nature.com/doifinder/10.1038/ncomms1647
+  preprint: false
 - title: Ultracentrifugation Deforms Unfixed Influenza A Virions
   authors:
   - Yukihiko Sugita
@@ -788,3 +818,4 @@
   pages: 2485–2493
   doi: 10.1099/vir.0.036715-0
   url: https://doi.org/10.1099/vir.0.036715-0
+  preprint: false
