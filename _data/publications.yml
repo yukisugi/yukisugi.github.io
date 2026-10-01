@@ -66,6 +66,24 @@
   doi: 10.1101/2025.11.24.689909
   url: https://www.biorxiv.org/content/10.1101/2025.11.24.689909v3
   preprint: true
+- title: Step-by-Step Maturation Mechanism of the Binary Toxin Pore Revealed by Cryo-EM
+    Analysis
+  authors:
+  - Tomohito Yamada
+  - Ren Nakanishi
+  - Yukihiko Sugita
+  - Yuki Ninomiya
+  - Toru Yoshida
+  - Takeshi Noda
+  - Hideaki Tsuge
+  year: '2026'
+  journal: Proceedings of the National Academy of Sciences
+  volume: '123'
+  number: '40'
+  pages: e2627537123
+  doi: 10.1073/pnas.2627537123
+  url: https://doi.org/10.1073/pnas.2627537123
+  preprint: false
 - title: Structural Insights into Spectral Tuning and Retinal Exchange in Cone Visual
     Pigments
   authors:
@@ -254,22 +272,6 @@
   doi: 10.1038/s41467-025-64882-1
   url: https://doi.org/10.1038/s41467-025-64882-1
   preprint: false
-- title: Step-by-Step Maturation Mechanism of Binary Toxin Pore Revealed by Cryo-EM
-    Analysis
-  authors:
-  - Tomohito Yamada
-  - Yukihiko Sugita
-  - Toru Yoshida
-  - Takeshi Noda
-  - Hideaki Tsuge
-  year: '2025'
-  journal: bioRxiv
-  volume: ''
-  number: ''
-  pages: ''
-  doi: 10.1101/2024.10.10.617581
-  url: https://www.biorxiv.org/content/10.1101/2024.10.10.617581v2
-  preprint: true
 - title: Structural Insights into the G-protein Subtype Selectivity Revealed by Human
     Sphingosine-1-Phosphate Receptor 3–Gq Complexes
   authors:
