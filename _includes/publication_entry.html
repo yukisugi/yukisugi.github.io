@@ -9,4 +9,9 @@
   {% if pub.journal != "" %}<em>{{ pub.journal }}</em>{% endif %}
   {% if pub.volume != "" %}{{ pub.volume }}{% endif %}{% if pub.number != "" %}({{ pub.number }}){% endif %}{% if pub.pages != "" %}, {{ pub.pages }}{% endif %}
   ({{ pub.year }}).
+  {% comment %}
+    Only where preprints sit alongside peer-reviewed work. The Publications
+    page groups them under their own heading, so the tag is redundant there.
+  {% endcomment %}
+  {% if include.show_preprint_tag and pub.preprint %}<span class="pub-tag">Preprint</span>{% endif %}
 </li>

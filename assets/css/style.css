@@ -231,6 +231,17 @@ img {
   font-size: 15px;
 }
 
+.pub-tag {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 6px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #999999;
+  white-space: nowrap;
+}
+
 .notes-list li {
   border-bottom: none;
 }
@@ -375,13 +386,23 @@ img {
   margin-bottom: 0;
 }
 
+/* Underline inline links in Notes body so they are recognizable without hover */
+.note-meta ~ .prose p a {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.25);
+  text-underline-offset: 3px;
+}
+
+.note-meta ~ .prose p a:hover {
+  text-decoration-color: currentColor;
+}
+
 .lab-name {
   margin: 0 0 16px;
 }
 
 .lab-name-ja {
   font-size: 17px;
-  font-weight: bold;
   color: #333333;
   letter-spacing: 0.04em;
 }
