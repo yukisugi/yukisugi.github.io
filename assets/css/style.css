@@ -242,6 +242,13 @@ img {
   white-space: nowrap;
 }
 
+/* One legend per page explaining the * and dagger author markers. */
+.pub-legend {
+  margin-top: 32px;
+  font-size: 12px;
+  color: #999999;
+}
+
 .notes-list li {
   border-bottom: none;
 }

@@ -9,8 +9,23 @@ layout: default
   {% if page.tags %}{% for tag in page.tags %}<span class="note-tag">#{{ tag }}</span>{% endfor %}{% endif %}
 </p>
 
+{% comment %}
+  With paper_doi set, the citation comes from _data/publications.yml and
+  replaces the <!--citation--> marker in the body, so the author markers
+  live in one place and embeds can sit below it.
+{% endcomment %}
+{% if page.paper_doi %}
+  {% assign cited = site.data.publications | where: "doi", page.paper_doi | first %}
+{% endif %}
+{% if cited %}
+  {% capture citation_html %}<ul class="pub-list note-citation">{% include publication_entry.html pub=cited %}</ul>{% endcapture %}
+  {% assign body = content | replace: "<!--citation-->", citation_html %}
+{% else %}
+  {% assign body = content %}
+{% endif %}
+
 <div class="prose">
-  {{ content }}
+  {{ body }}
 </div>
 
 {% if content contains "twitter-tweet" %}

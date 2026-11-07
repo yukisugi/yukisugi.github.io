@@ -13,6 +13,8 @@
   - Yoshiko Nakada-Nakura
   - Masahiko Tsujimoto
   - Daishi Fujita
+  equal_contribution: Masahiko Yoshimura, Fuyuki Matsuda, Yoshiki Ikeda
+  corresponding: Daishi Fujita
   year: '2026'
   journal: arXiv
   volume: ''
@@ -44,6 +46,8 @@
   - Gregory W. Moseley
   - Paul R. Gooley
   - Toyoyuki Ose
+  equal_contribution: Miku Minami, Aoi Sugiyama
+  corresponding: Gregory W. Moseley, Paul R. Gooley, Toyoyuki Ose
   year: '2026'
   journal: bioRxiv
   volume: ''
@@ -58,6 +62,7 @@
   - Takuro Fujiwara
   - Yukihiko Sugita
   - Yuta Suzuki
+  corresponding: Yuta Suzuki
   year: '2026'
   journal: bioRxiv
   volume: ''
@@ -66,6 +71,37 @@
   doi: 10.1101/2025.11.24.689909
   url: https://www.biorxiv.org/content/10.1101/2025.11.24.689909v3
   preprint: true
+- title: RBD-down Stabilization of SARS-CoV-2 Spike Enhances Cross-neutralizing Antibody
+    Responses by Redirecting Immunodominance Toward Conserved Epitopes
+  authors:
+  - Takuya Hemmi
+  - Saya Moriyama
+  - Akira Ainai
+  - Hisano Yajima
+  - Rin Shirota
+  - Sho Miyamoto
+  - Shiori Ueno
+  - Kei Asayama
+  - Tomo Nomai
+  - Shunsuke Kita
+  - Satoru Nagatoishi
+  - Kouhei Tsumoto
+  - Nanami Hirose
+  - Yukihiko Sugita
+  - Takeshi Noda
+  - Katsumi Maenaka
+  - Yoshimasa Takahashi
+  - Tadaki Suzuki
+  - Takao Hashiguchi
+  corresponding: Takao Hashiguchi
+  year: '2026'
+  journal: npj Vaccines
+  volume: ''
+  number: ''
+  pages: ''
+  doi: 10.1038/s41541-026-01598-3
+  url: https://doi.org/10.1038/s41541-026-01598-3
+  preprint: false
 - title: Step-by-Step Maturation Mechanism of the Binary Toxin Pore Revealed by Cryo-EM
     Analysis
   authors:
@@ -76,6 +112,7 @@
   - Toru Yoshida
   - Takeshi Noda
   - Hideaki Tsuge
+  corresponding: Tomohito Yamada, Ren Nakanishi, Hideaki Tsuge
   year: '2026'
   journal: Proceedings of the National Academy of Sciences
   volume: '123'
@@ -106,6 +143,8 @@
   - Massimo Olivucci
   - Hideaki E. Kato
   - Hideki Kandori
+  equal_contribution: Sayaka Ohashi, Kota Katayama, Asato Kojima, Xuchun Yang, Masahiro Fukuda
+  corresponding: Kota Katayama, Massimo Olivucci, Hideaki E. Kato, Hideki Kandori
   year: '2026'
   journal: Science
   volume: '392'
@@ -124,6 +163,7 @@
   - Yukihiko Sugita
   - Takeshi Noda
   - Shuya Fukai
+  corresponding: Kei Okatsu, Shuya Fukai
   year: '2026'
   journal: eLife Reviewed Preprint
   volume: ''
@@ -141,6 +181,8 @@
   - Keizo Tomonaga
   - Takeshi Noda
   - Masayuki Horie
+  equal_contribution: Yukihiko Sugita, Yuya Hirai
+  corresponding: Yukihiko Sugita, Yuya Hirai, Masayuki Horie
   year: '2026'
   journal: Science Advances
   volume: '12'
@@ -164,6 +206,7 @@
   - Tadaki Suzuki
   - Masahiro Nakano
   - Takeshi Noda
+  corresponding: Yukiko Muramoto, Takeshi Noda
   year: '2026'
   journal: Communications Biology
   volume: '9'
@@ -185,6 +228,8 @@
   - Masahiro Nakano
   - Yukihiko Sugita
   - Takeshi Noda
+  equal_contribution: Yoko Fujita-Fujiharu, Shangfan Hu
+  corresponding: Takeshi Noda
   year: '2025'
   journal: Nature Communications
   volume: '16'
@@ -200,6 +245,7 @@
   - Yosuke Yamazaki
   - Makito Miyazaki
   - Yuta Suzuki
+  corresponding: Yuta Suzuki
   year: '2025'
   journal: Nature Communications
   volume: '16'
@@ -230,6 +276,8 @@
   - Gregory W. Moseley
   - Yukihiko Sugita
   - Toyoyuki Ose
+  equal_contribution: Aoi Sugiyama, Miku Minami
+  corresponding: Toyoyuki Ose
   year: '2025'
   journal: Science Signaling
   volume: '18'
@@ -264,6 +312,8 @@
   - Hideki Kandori
   - Takuya Kobayashi
   - Ryoji Suno
+  equal_contribution: Chiyo Suno-Ikeda, Ryo Nishikawa, Riko Suzuki
+  corresponding: Takuya Kobayashi, Ryoji Suno
   year: '2025'
   journal: Nature Communications
   volume: '16'
@@ -288,6 +338,7 @@
   - Asuka Inoue
   - So Iwata
   - Masatoshi Hagiwara
+  corresponding: Dohyun Im, So Iwata, Masatoshi Hagiwara
   year: '2025'
   journal: Proceedings of the National Academy of Sciences
   volume: '122'
@@ -310,6 +361,8 @@
   - Takaaki Miyaji
   - Hidetsugu Asada
   - So Iwata
+  equal_contribution: Dohyun Im, Mika Jormakka, Narinobu Juge
+  corresponding: Dohyun Im, So Iwata
   year: '2024'
   journal: Nature Communications
   volume: '15'
@@ -445,6 +498,7 @@
   - Prokopios Andrikopoulos
   - Miguel Padilla-Blanco
   - Aditi Konar
+  corresponding: Takeo Kuwata, Shuzo Matsushita
   year: '2024'
   journal: eBioMedicine
   volume: '110'
@@ -464,6 +518,7 @@
   - Masahiro Nakano
   - Thomas Hoenen
   - Takeshi Noda
+  corresponding: Takeshi Noda
   year: '2023'
   journal: PNAS Nexus
   volume: '2'
@@ -486,6 +541,8 @@
   - Takayuki Kato
   - Hidetsugu Asada
   - So Iwata
+  equal_contribution: Dohyun Im, Jun-ichi Kishikawa
+  corresponding: Takayuki Kato, Hidetsugu Asada, So Iwata
   year: '2023'
   journal: Nature Communications
   volume: '14'
@@ -507,6 +564,7 @@
   - Ichiro Taniguchi
   - Stephan Becker
   - Takeshi Noda
+  corresponding: Takeshi Noda
   year: '2022'
   journal: Nature Communications
   volume: '13'
@@ -532,6 +590,8 @@
   - Takayuki Kato
   - So Iwata
   - Takuya Kobayashi
+  equal_contribution: Ryoji Suno, Yukihiko Sugita, Kazushi Morimoto
+  corresponding: Ryoji Suno, Takuya Kobayashi
   year: '2022'
   journal: Cell Reports
   volume: '40'
@@ -553,6 +613,7 @@
   - Taroh Kinoshita
   - Motoyuki Hattori
   - Morihisa Fujita
+  corresponding: Morihisa Fujita
   year: '2021'
   journal: Molecules
   volume: '26'
@@ -571,6 +632,7 @@
   - Yukiko Muramoto
   - Matthias Wolf
   - Takeshi Noda
+  corresponding: Takeshi Noda
   year: '2021'
   journal: Communications Biology
   volume: '4'
@@ -589,13 +651,15 @@
   - Jun-Ichi Nakayama
   - Matthias Wolf
   - Hitoshi Kurumizaka
+  equal_contribution: Shinichi Machida, Yoshimasa Takizawa
+  corresponding: Matthias Wolf, Hitoshi Kurumizaka
   year: '2018'
   journal: Molecular Cell
   volume: '69'
   number: '3'
   pages: 385-397.e8
   doi: 10.1016/j.molcel.2017.12.011
-  url: http://linkinghub.elsevier.com/retrieve/pii/S1097276517309395
+  url: https://doi.org/10.1016/j.molcel.2017.12.011
   preprint: false
 - title: Lung-Derived Exosomal miR-483-3p Regulates the Innate Immune Response to
     Influenza Virus Infection
@@ -607,6 +671,7 @@
   - Tomomi Nakao
   - Takeshi Noda
   - Yoshihiro Kawaoka
+  corresponding: Yoshihiro Kawaoka
   year: '2018'
   journal: The Journal of Infectious Diseases
   volume: '217'
@@ -622,6 +687,7 @@
   - Yoshihiro Kawaoka
   - Takeshi Noda
   - Matthias Wolf
+  corresponding: Matthias Wolf
   year: '2018'
   journal: Nature
   volume: '563'
@@ -648,6 +714,7 @@
   - Masatoshi Okamatsu
   - Hiroshi Kida
   - Yoshihiro Sakoda
+  corresponding: Yoshihiro Sakoda
   year: '2016'
   journal: Journal of Veterinary Medical Science
   volume: '78'
@@ -664,13 +731,14 @@
   - Takeshi Noda
   - Yusuke Yanagi
   - Shinji Ohno
+  corresponding: Shinji Ohno
   year: '2015'
   journal: Journal of Virology
   volume: '89'
   number: '20'
   pages: 10524–10531
   doi: 10.1128/JVI.01819-15
-  url: http://jvi.asm.org/lookup/doi/10.1128/JVI.01819-15
+  url: https://doi.org/10.1128/JVI.01819-15
   preprint: false
 - title: Influenza Virus-Host Interactome Screen as a Platform for Antiviral Drug
     Development
@@ -703,13 +771,15 @@
   - Masaaki Oyama
   - Hiroaki Kitano
   - Yoshihiro Kawaoka
+  equal_contribution: Tokiko Watanabe, Eiryo Kawakami
+  corresponding: Yoshihiro Kawaoka
   year: '2014'
   journal: Cell Host & Microbe
   volume: '16'
   number: '6'
   pages: 795–805
   doi: 10.1016/j.chom.2014.11.002
-  url: http://linkinghub.elsevier.com/retrieve/pii/S1931312814003989
+  url: https://doi.org/10.1016/j.chom.2014.11.002
   preprint: false
 - title: Configuration of Viral Ribonucleoprotein Complexes within the Influenza A
     Virion
@@ -718,13 +788,14 @@
   - Hiroshi Sagara
   - Takeshi Noda
   - Yoshihiro Kawaoka
+  corresponding: Takeshi Noda, Yoshihiro Kawaoka
   year: '2013'
   journal: Journal of Virology
   volume: '87'
   number: '23'
   pages: 12879–12884
   doi: 10.1128/JVI.02096-13
-  url: http://jvi.asm.org/cgi/doi/10.1128/JVI.02096-13
+  url: https://doi.org/10.1128/JVI.02096-13
   preprint: false
 - title: Characterization of H7N9 Influenza A Viruses Isolated from Humans
   authors:
@@ -778,13 +849,15 @@
   - Hideki Hasegawa
   - Masato Tashiro
   - Yoshihiro Kawaoka
+  equal_contribution: Tokiko Watanabe, Maki Kiso, Satoshi Fukuyama, Noriko Nakajima, Masaki Imai
+  corresponding: Yoshihiro Kawaoka
   year: '2013'
   journal: Nature
   volume: '501'
   number: '7468'
   pages: 551–555
   doi: 10.1038/nature12392
-  url: http://www.nature.com/doifinder/10.1038/nature12392
+  url: https://doi.org/10.1038/nature12392
   preprint: false
 - title: Three-Dimensional Analysis of Ribonucleoprotein Complexes in Influenza A
     Virus
@@ -797,22 +870,22 @@
   - Atsuo Miyazawa
   - Hiroshi Sagara
   - Yoshihiro Kawaoka
+  corresponding: Takeshi Noda, Yoshihiro Kawaoka
   year: '2012'
   journal: Nature Communications
   volume: '3'
   number: '1'
   pages: '639'
   doi: 10.1038/ncomms1647
-  url: http://www.nature.com/doifinder/10.1038/ncomms1647
+  url: https://doi.org/10.1038/ncomms1647
   preprint: false
 - title: Ultracentrifugation Deforms Unfixed Influenza A Virions
   authors:
   - Yukihiko Sugita
   - Takeshi Noda
-  - H Sagara
   - Hiroshi Sagara
-  - Y Kawaoka
   - Yoshihiro Kawaoka
+  corresponding: Takeshi Noda, Yoshihiro Kawaoka
   year: '2011'
   journal: Journal of General Virology
   volume: '92'

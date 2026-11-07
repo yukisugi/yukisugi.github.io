@@ -1,6 +1,43 @@
 {% assign pub = include.pub %}
 <li>
-  {{ pub.authors | join: ", " }}.
+  {% comment %}
+    Research topic pages abbreviate to the first author, as "Hemmi T" --
+    names run given-first in publications.yml, so the last word is the
+    family name. Anyone sharing the first position (a run of equal
+    contributors from author 1) is named too, joined by "and". Equal
+    contributors further down the list stay inside the "et al.".
+  {% endcomment %}
+  {% if include.abbreviate_authors and pub.authors.size > 3 %}
+    {% assign equal_raw = pub.equal_contribution | default: "" | replace: ", ", "," %}
+    {% assign equal_authors = equal_raw | split: "," %}
+    {% assign lead_names = "" | split: "" %}
+    {% for author in pub.authors %}
+      {% unless forloop.first or equal_authors contains author %}{% break %}{% endunless %}
+      {% assign name_parts = author | split: " " %}
+      {% assign family = name_parts | last %}
+      {% assign initial = name_parts[0] | slice: 0 %}
+      {% assign short_name = family | append: " " | append: initial %}
+      {% assign lead_names = lead_names | push: short_name %}
+    {% endfor %}
+    {{ lead_names | join: " and " }}, et al.
+  {% else %}
+    {% comment %}
+      Full list, marking equal contributors (equal_contribution) with * and
+      correspondence (corresponding) with a dagger, both matched by full
+      name. Equal contributors need not be the leading authors. A single
+      legend at the foot of the page explains both.
+    {% endcomment %}
+    {% assign equal_raw = pub.equal_contribution | default: "" | replace: ", ", "," %}
+    {% assign equal_authors = equal_raw | split: "," %}
+    {% assign corresponding_raw = pub.corresponding | default: "" | replace: ", ", "," %}
+    {% assign corresponding = corresponding_raw | split: "," %}
+    {% for author in pub.authors %}
+      {%- if forloop.index0 > 0 %}, {% endif -%}
+      {{ author }}
+      {%- if equal_authors contains author %}<sup>*</sup>{% endif -%}
+      {%- if corresponding contains author %}<sup>&dagger;</sup>{% endif -%}
+    {% endfor %}.
+  {% endif %}
   {% if pub.url != "" %}
     <a href="{{ pub.url }}" target="_blank" rel="noopener"><b>&ldquo;{{ pub.title }}&rdquo;</b></a>
   {% else %}
