@@ -5,6 +5,7 @@ order: 1
 thumbnail: /assets/images/SARS-CoV-2.jpg
 thumbnail_caption: SARS-CoV-2粒子の電子顕微鏡像（負染色）
 dois:
+  - 10.1038/s41541-026-01598-3
   - 10.1016/j.ebiom.2024.105439
   - 10.1126/scisignal.ads2210
   - 10.64898/2026.07.29.741124
